@@ -1,0 +1,119 @@
+<div layout="row" layout-fill>
+
+  <md-content>
+
+    <header>
+      <agnium-navbar>
+    </header>
+
+    <section class="jumbotron vertical-center">
+      <div class="container">
+        <h1>
+          Hi. We develop software.
+          <br>And <agnium-malarkey extra-values="['people', 'engineers', 'developers', 'businesses', 'you']" />
+        </h1>
+        <h2>
+          Unleash your digital business potential,
+          <br>ignited by Agnium.
+        </h2>
+        <md-button class="cta long md-raised md-primary md-hue-1">LEARN MORE WITH US NOW</md-button>
+      </div>
+    </section>
+
+    <!-- <agnium-clientbar/> -->
+
+    <section id="with">
+      <div class="clients vertical-center" layout-align="center">
+        <md-card ng-repeat="agniumClient in main.agniumClients | orderBy:'rank'">
+          <a ng-href="{{ agniumClient.url }}">
+            <h3><img ng-src="assets/images/{{ agniumMember.logo }}" alt="{{ agniumMember.title }}"></h3>
+          </a>
+        </md-card>
+      </div>
+    </section>
+
+    <section id="intro" layout-align="center">
+      <md-whiteframe class="md-whiteframe-z3" layout layout-align="center center">
+        <span>
+          You may bla bla bla. We started as a bla bla bla. Do you love movies as much as you love making cool websites? Then, boy, have we got the lorem ipsum for you! Our badass text generator will give you the best lines from some of the hardest legends.
+        </span>
+      </md-whiteframe>
+    </section>
+
+    <md-divider ng-if="!$last"></md-divider>
+
+    <section id="what">
+      <h2 class="md-display-1">
+        What we teach
+      </h2>
+      <div class="courses" layout-align="center">
+        <md-card ng-repeat="agniumCourse in main.agniumCourses | orderBy:'rank'">
+          <a ng-href="{{ agniumCourse.url }}">
+            <img class="md-card-image" ng-src="assets/images/{{ agniumCourse.image }}" alt="{{ agniumCourse.title }}">
+          </a>
+          <md-card-content>
+            <h2>{{ agniumCourse.title }}</h2>
+          </md-card-content>
+        </md-card>
+      </div>
+    </section>
+
+    <md-divider ng-if="!$last"></md-divider>
+
+    <section id="which">
+      <h2 class="md-display-1">
+        Which services we offer
+      </h2>
+      <div class="services" layout-align="center">
+        <md-card ng-repeat="agniumService in main.agniumServices | orderBy:'rank'">
+          <a ng-href="{{ agniumService.url }}">
+            <img class="md-card-image" ng-src="assets/images/{{ agniumService.image }}" alt="{{ agniumService.title }}">
+          </a>
+          <md-card-content>
+            <h2>{{ agniumService.title }}</h2>
+          </md-card-content>
+        </md-card>
+      </div>
+    </section>
+
+    <md-divider ng-if="!$last"></md-divider>
+
+
+    <section id="who">
+      <h2 class="md-display-1">
+        Who we are
+      </h2>
+      <div class="members" layout-align="center center">
+        <md-card ng-repeat="agniumMember in main.agniumMembers | orderBy:'rank'">
+          <a ng-href="{{ agniumMember.url }}">
+            <img class="md-card-image" ng-src="assets/images/{{ agniumMember.photo }}" alt="{{ agniumMember.title }}">
+          </a>
+          <md-card-content>
+            <h2>{{ agniumMember.name }}</h2>
+            <h3>{{ agniumMember.title }}</h3>
+          </md-card-content>
+        </md-card>
+      </div>
+      <p class="more">
+        Together we're helping you to build and maintain
+        <br>a better software developer and business.
+      </p>
+    </section>
+
+    <md-divider ng-if="!$last"></md-divider>
+
+    <section>
+      <h2 class="md-display-2">
+        Interested to learn more?
+        <br>Or still got question?
+      </h2>
+      <md-button class="cta big md-raised md-primary md-hue-2">LEARN MORE WITH US NOW</md-button>
+    </section>
+
+    <footer>
+      <p>&copy; 2015 Agnium. All Rights Reserved</p>
+    </footer>
+
+  </md-content>
+
+</div>

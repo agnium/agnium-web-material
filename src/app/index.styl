@@ -1,0 +1,116 @@
+/**
+ *  Do not remove this comments bellow.
+ *  It's the markers used by wired to inject stylus dependencies
+ *  when defined in the bower.json of your dependencies
+ */
+// bower:styl
+// endbower
+
+@import url("//fonts.googleapis.com/css?family=Oxygen+Mono|Oxygen:400,700")
+
+html
+  font-family 'Oxygen', sans-serif
+
+body
+  color #b71c1c
+  font-weight 900
+
+[layout=row]
+  flex-direction row
+
+.browsehappy
+  margin 0.2em 0
+  background #ccc
+  color #000
+  padding 0.2em 0
+
+.thumbnail
+  height 200px
+  img
+    &.pull-right
+      width 50px
+
+#logo
+  width 48px
+  height 48px
+
+md-toolbar
+  &.md-default-theme
+    background-color white
+
+section
+  &.jumbotron
+    margin-top 0
+    margin-bottom 30px
+    padding 10px 60px
+    background-color #b71c1c
+    text-align left
+    color white
+    &.vertical-center
+      min-height 100%
+      min-height 75vh
+      display flex
+      align-items center
+    h1
+      font-size 3em
+  text-align center
+  margin 60px 0
+
+.clients
+  display flex
+  flex-flow row wrap
+  md-card
+    width 30%
+    img
+      height 50px
+
+.members
+  display flex
+  flex-flow row wrap
+  md-card
+    width 20%
+    img
+      &.pull-right
+        float right
+        width 50px
+
+code
+  font-family 'Oxygen Mono'
+
+.cta
+  text-transform uppercase
+  &.long
+    width 250px
+    margin-left 0
+  &.big
+    font-size 1.2em
+    height 50px
+    width 600px
+
+.more
+  font-size 1.6em
+
+p, span
+  font-size 1.2em
+
+footer
+  text-align center
+  padding 2em 0
+  background-color #b71c1c
+  color #fff
+
+md-card
+  min-height 50px
+
+md-whiteframe
+  background #fff
+  margin 20px
+  padding 20px
+  width 75%
+
+/**
+ *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
+ *  all your stylus files automatically
+ */
+// injector
+// endinjector
