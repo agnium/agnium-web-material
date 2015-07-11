@@ -11,10 +11,10 @@ angular.module "agnium-web"
 
     $mdThemingProvider.theme('default')
       .primaryPalette('red', {
-              'default': '900'
-              'hue-1': '600'
-              'hue-2': '900'
-            })
+        'default': '900'
+        'hue-1': '600'
+        'hue-2': '900'
+      })
       .accentPalette('deep-orange', {
-              'default': '200'
-            })
+        'default': '200'
+      })
