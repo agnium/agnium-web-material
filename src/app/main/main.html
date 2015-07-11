@@ -16,7 +16,9 @@
           Unleash your digital business potential,
           <br>ignited by Agnium.
         </h2>
-        <md-button class="cta long md-raised md-primary md-hue-1">LEARN MORE WITH US NOW</md-button>
+        <md-button class="typeform-share cta long md-raised md-primary md-hue-1" ng-href="{{agniumTypeform}}" data-mode="2" target="_blank">
+          Learn more with us now
+        </md-button>
       </div>
     </section>
 
@@ -56,6 +58,9 @@
           </md-card-content>
         </md-card>
       </div>
+      <p class="more">
+        Bla bla bla.
+      </p>
     </section>
 
     <md-divider ng-if="!$last"></md-divider>
@@ -74,6 +79,10 @@
           </md-card-content>
         </md-card>
       </div>
+      <p class="more">
+        Choose what's fit with your business needs.
+        <br>Or let us help you to choose.
+      </p>
     </section>
 
     <md-divider ng-if="!$last"></md-divider>
@@ -107,12 +116,54 @@
         Interested to learn more?
         <br>Or still got question?
       </h2>
-      <md-button class="cta big md-raised md-primary md-hue-2">LEARN MORE WITH US NOW</md-button>
+      <md-button class="typeform-share cta long md-raised md-primary md-hue-1" ng-href="{{agniumTypeform}}" data-mode="2" target="_blank">
+        Learn more with us now
+      </md-button>
+    </section>
+
+    <section id="where">
+      <h2 class="md-display-1">
+        Where we are
+      </h2>
+      <div layout-align="right center">
+        <div class="maps">
+          MAPS
+        </div>
+        <p class="contact">
+          Email: info@agnium.co.id <br>
+          Phone: (+62-21) 2963 6703 <br>
+          Address: <br>
+          Level 38, Office Tower 88, Kota Kasablanka, <br>
+          Jl. Casablanca Raya Kav 88, <br>
+          Jakarta 12870, Indonesia
+        </p>
+      </div>
+      <p class="more">
+        Even though, we're available around Jakarta, Depok, and Bogor.
+        <br>Let's discuss wherever it's suitable for us.
+      </p>
+      <md-button class="typeform-share cta big long md-raised md-primary" ng-href="{{agniumTypeform}}" data-mode="2" target="_blank">
+        So it's better to contact us
+      </md-button>
+    </section>
+
+    <section id="social">
+      <h2 class="md-display-2">
+        Yes, we are social too!
+      </h2>
+      <h3 class="md-headline">
+        Get coached for free by checking us out on these networks.
+      </h3>
+      <md-button class="md-raised">name</md-button>
     </section>
 
     <footer>
       <p>&copy; 2015 Agnium. All Rights Reserved</p>
     </footer>
+
+    <script>
+      (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()
+    </script>
 
   </md-content>
 

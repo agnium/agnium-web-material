@@ -1,5 +1,5 @@
 angular.module "agnium-web"
-  .controller "MainController", ($timeout, member, toastr) ->
+  .controller "MainController", ($scope, $timeout, member, toastr) ->
     vm = this
     vm.agniumClients = []
     vm.agniumCourses = []
@@ -7,14 +7,13 @@ angular.module "agnium-web"
     vm.classAnimation = ''
     vm.showToastr = showToastr
 
+    $scope.agniumTypeform = "https://agnium.typeform.com/to/Sloe2h"
+    $scope.agniumEmail = "mailto:info@agnium.co.id?subject=Hi, I want to learn more&body=Hi Agnium Team,%0D%0A%0D%0A%0D%0A"
+
     activate = ->
       # getClient()
       # getCourse()
       getMember()
-      $timeout (->
-        vm.classAnimation = 'rubberBand'
-        return
-      ), 4000
       return
 
     showToastr = ->

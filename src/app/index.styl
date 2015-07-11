@@ -13,15 +13,17 @@ html
 
 body
   color #b71c1c
-  font-weight 900
 
 [layout=row]
   flex-direction row
 
+h1, h2, h3
+  margin-top 0
+
 section
   &.jumbotron
     margin-top 0
-    margin-bottom 30px
+    margin-bottom 0
     padding 10px 60px
     background-color #b71c1c
     text-align left
@@ -34,19 +36,31 @@ section
     h1
       font-size 3em
   text-align center
-  margin 60px 0
+  padding 60px 0
 
 code
   font-family 'Oxygen Mono'
 
-p, span
-  font-size 1.2em
+section
+  p, span
+    font-size 1.5em
 
 footer
   text-align center
   padding 2em 0
   background-color #b71c1c
   color #fff
+
+#logo
+  width 48px
+  height 48px
+
+#with, #where, #social
+  background-color #e53935
+  color #ffffff
+
+#where .contact
+  text-align left
 
 md-toolbar
   &.md-default-theme
@@ -62,9 +76,10 @@ md-whiteframe
   width 75%
   margin 0 auto
 
-#logo
-  width 48px
-  height 48px
+.md-button
+  text-transform none
+  header &
+    font-size 1.2em
 
 .browsehappy
   margin 0.2em 0
@@ -99,11 +114,12 @@ md-whiteframe
 .cta
   text-transform uppercase
   &.long
-    width 250px
+    width 360px
     margin-left 0
   &.big
     font-size 1.2em
-    height 50px
+    line-height 60px
+    height 60px
     width 600px
 
 .more
