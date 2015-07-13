@@ -1,6 +1,6 @@
 {
-  "name": "agnium-web",
-  "version": "0.0.0",
+  "name": "agnium-web-material",
+  "version": "0.1.0",
   "dependencies": {
     "angular-animate": "~1.4.0",
     "angular-cookies": "~1.4.0",
