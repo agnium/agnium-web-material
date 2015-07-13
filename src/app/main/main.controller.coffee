@@ -1,5 +1,5 @@
 angular.module "agnium-web"
-  .controller "MainController", ($scope, $timeout, member, toastr) ->
+  .controller "MainController", ($scope, $timeout, client, course, member, toastr) ->
     vm = this
     vm.agniumClients = []
     vm.agniumCourses = []
@@ -11,8 +11,8 @@ angular.module "agnium-web"
     $scope.agniumEmail = "mailto:info@agnium.co.id?subject=Hi, I want to learn more&body=Hi Agnium Team,%0D%0A%0D%0A%0D%0A"
 
     activate = ->
-      # getClient()
-      # getCourse()
+      getClient()
+      getCourse()
       getMember()
       return
 

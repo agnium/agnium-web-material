@@ -37,13 +37,15 @@ section
       font-size 3em
   text-align center
   padding 60px 0
+  &#with
+    padding 10px 0
 
 code
   font-family 'Oxygen Mono'
 
 section
   p, span
-    font-size 1.5em
+    font-size 1.2em
 
 footer
   text-align center
@@ -89,19 +91,13 @@ md-whiteframe
   color #000
   padding 0.2em 0
 
-.thumbnail
-  height 200px
-  img
-    &.pull-right
-      width 50px
-
-.clients
+.clients, .courses, .services
   display flex
   flex-flow row wrap
   md-card
-    width 30%
+    width 20%
     img
-      height 50px
+      width 30%
 
 .members
   display flex
@@ -126,6 +122,9 @@ md-whiteframe
 
 .more
   font-size 1.6em
+
+.no-border
+  border-top-color none
 
 @media (min-width: 960px)
   .md-button

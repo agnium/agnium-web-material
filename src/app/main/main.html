@@ -22,13 +22,11 @@
       </div>
     </section>
 
-    <!-- <agnium-clientbar/> -->
-
     <section id="with">
       <div class="clients vertical-center" layout-align="center">
         <md-card ng-repeat="agniumClient in main.agniumClients | orderBy:'rank'">
           <a ng-href="{{ agniumClient.url }}">
-            <h3><img ng-src="assets/images/{{ agniumMember.logo }}" alt="{{ agniumMember.title }}"></h3>
+            <h3><img ng-src="assets/images/{{ agniumClient.logo }}" alt="{{ agniumClient.title }}">{{ agniumClient.title }}</h3>
           </a>
         </md-card>
       </div>
@@ -87,7 +85,6 @@
 
     <md-divider ng-if="!$last"></md-divider>
 
-
     <section id="who">
       <h2 class="md-display-1">
         Who we are
@@ -121,6 +118,8 @@
       </md-button>
     </section>
 
+    <md-divider ng-if="!$last"></md-divider>
+
     <section id="where">
       <h2 class="md-display-1">
         Where we are
@@ -146,6 +145,8 @@
         So it's better to contact us
       </md-button>
     </section>
+
+    <md-divider ng-if="!$last" class="no-border"></md-divider>
 
     <section id="social">
       <h2 class="md-display-2">

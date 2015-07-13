@@ -8,7 +8,7 @@ angular.module "agnium-web"
       },
       {
         'name': 'Matreska',
-        'url': 'http://google.com',
+        'url': 'https://linkedin.com/company/maretska-kirana-technologies',
         'logo': 'agnium.png'
       },
       {
