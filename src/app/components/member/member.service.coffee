@@ -8,12 +8,6 @@ angular.module "agnium-web"
         'photo': 'agnium.png'
       },
       {
-        'name': 'Harry Aprizal',
-        'url': 'https://linkedin.com/in/harryaprizal',
-        'title': 'Operation Lead',
-        'photo': 'agnium.png'
-      },
-      {
         'name': 'M Haidar Hanif',
         'url': 'https://linkedin.com/in/mhaidarhanif',
         'title': 'Technical Lead',
