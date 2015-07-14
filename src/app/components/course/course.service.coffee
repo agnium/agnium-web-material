@@ -4,22 +4,22 @@ angular.module "agnium-web"
       {
         'title': 'Creating web app with AngularJS',
         'description': 'description',
-        'image': 'agnium.png'
+        'image': 'angular.png'
       },
       {
         'title': 'Creating Android app with Java',
         'description': 'description',
-        'image': 'agnium.png'
+        'image': 'android.png'
       },
       {
         'title': 'Creating iOS app with Swift',
         'description': 'description',
-        'image': 'agnium.png'
+        'image': 'swift.png'
       },
       {
         'title': 'HTML5 and CSS3 Fundamentals',
         'description': 'description',
-        'image': 'agnium.png'
+        'image': 'html5-css3.png'
       }
     ]
 

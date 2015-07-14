@@ -52,7 +52,7 @@ section
     h1
       font-size 3em
   text-align center
-  padding 60px 0
+  padding 60px 30px
   &#with
     padding 10px 0
 
@@ -97,6 +97,9 @@ md-toolbar
 md-card
   min-height 50px
 
+md-card-content
+  padding 0 16px
+
 md-whiteframe
   background #fff
   margin 20px
@@ -122,8 +125,11 @@ md-whiteframe
   display flex
   flex-flow row wrap
   md-card
+    a
+      min-height 100px
+      padding-top 20px
     img
-      width 30%
+      width auto
 
 .clients
   display flex
@@ -145,13 +151,11 @@ md-whiteframe
   text-transform uppercase
   font-size 1.2em
   &.long
-    width 360px
     margin-left 0
   &.big
     font-size 1.6em
     line-height 60px
-    height 60px
-    width 600px
+    width 90%
 
 .more
   font-size 1.6em
@@ -167,10 +171,14 @@ md-whiteframe
       width 100px
       padding 2px 10px
   .courses, .services, .members
-      display flex
-      flex-flow row wrap
-      md-card
-        width 20%
+    md-card
+      width 20%
+  .cta
+    &.long
+      width 360px
+    &.big
+      height 60px
+      width 600px
 
 @media (max-width: 960px)
   .desktop
