@@ -7,9 +7,9 @@ angular.module "agnium-web"
         'logo': 'photon.png'
       },
       {
-        'name': 'Matreska',
+        'name': 'Maretska',
         'url': 'https://linkedin.com/company/maretska-kirana-technologies',
-        'logo': 'matreska.png'
+        'logo': 'maretska.png'
       },
       {
         'name': 'JakartaLP',
