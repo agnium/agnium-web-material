@@ -4,17 +4,17 @@ angular.module "agnium-web"
       {
         'name': 'Photon',
         'url': 'http://photon.in',
-        'logo': 'agnium.png'
+        'logo': 'photon.png'
       },
       {
         'name': 'Matreska',
         'url': 'https://linkedin.com/company/maretska-kirana-technologies',
-        'logo': 'agnium.png'
+        'logo': 'matreska.png'
       },
       {
-        'name': 'Meetup',
+        'name': 'JakartaLP',
         'url': 'http://meetup.com/Jakarta-Learns-Programming',
-        'logo': 'agnium.png'
+        'logo': 'jakartalp.png'
       }
     ]
 

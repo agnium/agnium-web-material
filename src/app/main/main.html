@@ -22,11 +22,11 @@
       </div>
     </section>
 
-    <section id="with">
+    <section id="with" class="desktop">
       <div class="clients vertical-center" layout-align="center">
         <md-card ng-repeat="agniumClient in main.agniumClients | orderBy:'rank'">
           <a ng-href="{{ agniumClient.url }}">
-            <h3><img ng-src="assets/images/{{ agniumClient.logo }}" alt="{{ agniumClient.title }}">{{ agniumClient.title }}</h3>
+            <img ng-src="assets/images/{{ agniumClient.logo }}" alt="{{ agniumClient.title }}">
           </a>
         </md-card>
       </div>

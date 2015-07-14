@@ -18,13 +18,15 @@ body
   flex-direction row
 
 h1, h2, h3
+  padding 20px 0
   margin-top 0
+  margin-bottom 0
 
 section
   &.jumbotron
     margin-top 0
     margin-bottom 0
-    padding 0 10%
+    padding 5% 10%
     background-color #b71c1c
     text-align left
     color white
@@ -91,19 +93,24 @@ md-whiteframe
   color #000
   padding 0.2em 0
 
-.clients, .courses, .services
+.courses, .services, .members
   display flex
   flex-flow row wrap
   md-card
-    width 20%
     img
       width 30%
+
+.clients
+  display flex
+  flex-flow row wrap
+  img
+    width auto
+    padding 20px
 
 .members
   display flex
   flex-flow row wrap
   md-card
-    width 20%
     img
       &.pull-right
         float right
@@ -133,6 +140,15 @@ md-whiteframe
     header &
       width 100px
       padding 2px 10px
+  .courses, .services, .members
+      display flex
+      flex-flow row wrap
+      md-card
+        width 20%
+
+@media (max-width: 960px)
+  .desktop
+    display none
 
 /**
  *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
