@@ -1,5 +1,5 @@
 angular.module "agnium-web"
-  .controller "MainController", ($scope, $timeout, client, course, member, social, toastr) ->
+  .controller "MainController", ($scope, $timeout, client, course, service, member, social, toastr) ->
     vm = this
     vm.agniumClients  = []
     vm.agniumCourses  = []
@@ -15,7 +15,7 @@ angular.module "agnium-web"
     activate = ->
       getClient()
       getCourse()
-      # getService()
+      getService()
       getMember()
       getSocial()
       return
