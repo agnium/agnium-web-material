@@ -8,8 +8,11 @@
 
 @import url("//fonts.googleapis.com/css?family=Oxygen+Mono|Oxygen:400,700")
 
+$font-header = "Exo 2.0", "Helvetica Neue", "Arial", sans-serif
+$font-body = "Oxygen", sans-serif
+
 html
-  font-family 'Oxygen', sans-serif
+  font-family $font-body
 
 body
   color #b71c1c
@@ -18,9 +21,13 @@ body
   flex-direction row
 
 h1, h2, h3
+  font-family $font-header
   padding 20px 0
   margin-top 0
   margin-bottom 0
+
+h1
+  font-family $font-header
 
 section
   &.jumbotron
@@ -87,6 +94,7 @@ md-whiteframe
 .md-button
   text-transform none
   header &
+    font-family $font-header
     font-size 1em
     text-transform uppercase
 
