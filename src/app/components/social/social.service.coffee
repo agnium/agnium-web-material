@@ -7,63 +7,63 @@ angular.module "agnium-web"
       },
       {
         'name': 'Twitter',
-        'url': 'https://'
+        'url': 'https://twitter.com/agnium'
       },
       {
         'name': 'Facebook',
-        'url': 'https://'
+        'url': 'https://facebook.com/agnium.interactive'
       },
       {
         'name': 'LinkedIn',
-        'url': 'https://'
+        'url': 'https://linkedin.com/company/agnium'
       },
       {
         'name': 'YouTube',
-        'url': 'https://'
+        'url': 'https://youtube.com/c/AgnumIDCorp'
       },
       {
         'name': 'Medium',
-        'url': 'https://'
+        'url': 'https://medium.com/agnium-coaching-life'
       },
       {
         'name': 'Instagram',
-        'url': 'https://'
+        'url': 'https://instagram.com/agnium'
       },
       {
         'name': 'Tumblr',
-        'url': 'https://'
+        'url': 'https://agnium.tumblr.com'
       },
       {
         'name': 'GitHub',
-        'url': 'https://'
+        'url': 'https://github.com/agnium'
       },
       {
         'name': 'Bitbucket',
-        'url': 'https://'
+        'url': 'https://bitbucket.org/agnium'
       },
       {
         'name': 'Coderwall',
-        'url': 'https://'
+        'url': 'https://coderwall.com/team/agnium'
       },
       {
         'name': 'Meetup',
-        'url': 'https://'
+        'url': 'https://meetup.com/Jakarta-Learns-Programming'
       },
       {
         'name': 'AngelList',
-        'url': 'https://'
+        'url': 'https://angel.co/agnium'
       },
       {
         'name': 'CrunchBase',
-        'url': 'https://'
+        'url': 'https://crunchbase.com/company/agnium'
       },
       {
         'name': 'Startup Ranking',
-        'url': 'https://'
+        'url': 'https://startupranking.com/agnium'
       },
       {
         'name': 'Tech in Asia',
-        'url': 'https://'
+        'url': 'https://techinasia.com/startup/agnium'
       }
     ]
 

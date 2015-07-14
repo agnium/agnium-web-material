@@ -1,9 +1,11 @@
 angular.module "agnium-web"
-  .controller "MainController", ($scope, $timeout, client, course, member, toastr) ->
+  .controller "MainController", ($scope, $timeout, client, course, member, social, toastr) ->
     vm = this
-    vm.agniumClients = []
-    vm.agniumCourses = []
-    vm.agniumMembers = []
+    vm.agniumClients  = []
+    vm.agniumCourses  = []
+    vm.agniumServices = []
+    vm.agniumMembers  = []
+    vm.agniumSocials  = []
     vm.classAnimation = ''
     vm.showToastr = showToastr
 
@@ -13,7 +15,9 @@ angular.module "agnium-web"
     activate = ->
       getClient()
       getCourse()
+      # getService()
       getMember()
+      # getSocial()
       return
 
     showToastr = ->
@@ -35,9 +39,22 @@ angular.module "agnium-web"
         return
       return
 
+    getService = ->
+      vm.agniumServices = service.getService()
+      angular.forEach vm.agniumServices, (agniumService) ->
+        agniumService.rank = Math.random()
+        return
+      return
+
     getMember = ->
       vm.agniumMembers = member.getMember()
       angular.forEach vm.agniumMembers, (agniumMember) ->
+        return
+      return
+
+    getSocial = ->
+      vm.agniumSocials = social.getSocial()
+      angular.forEach vm.agniumSocials, (agniumSocial) ->
         return
       return
 
