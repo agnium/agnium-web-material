@@ -153,14 +153,10 @@
       <h3 class="md-headline">
         Get coached for free by checking us out on these networks.
       </h3>
-      <div class="links">
-        <md-button class="md-raised">name</md-button>
-        <md-card ng-repeat="agniumSocial in main.agniumSocials | orderBy:'rank'">
-          <a ng-href="{{ agniumSocial.url }}">
-            <img class="md-card-image" ng-src="assets/images/{{ agniumSocial.photo }}" alt="{{ agniumSocial.title }}">
-          </a>
-          <span>{{ agniumSocial.name }}</span>
-        </md-card>
+      <div id="social-links">
+        <md-button class="md-raised" ng-repeat="agniumSocial in main.agniumSocials | orderBy:'rank'" ng-href="{{ agniumSocial.url }}">
+          {{ agniumSocial.name }}
+        </md-button>
       </div>
     </section>
 

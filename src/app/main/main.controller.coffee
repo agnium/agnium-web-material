@@ -17,7 +17,7 @@ angular.module "agnium-web"
       getCourse()
       # getService()
       getMember()
-      # getSocial()
+      getSocial()
       return
 
     showToastr = ->
