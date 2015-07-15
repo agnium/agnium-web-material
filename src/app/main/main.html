@@ -40,7 +40,7 @@
 
     <section id="with" class="desktop">
       <h2 class="md-display-1">
-        <strong>Who</strong> We Have Worked With
+        <strong>Who</strong>'s With Us
       </h2>
       <div class="clients vertical-center" layout-align="center">
         <md-card ng-repeat="agniumClient in main.agniumClients | orderBy:'rank'">
@@ -84,10 +84,11 @@
           </md-card-content>
         </md-card>
       </div>
-      <p class="more">
-        Choose what's fit with your business needs.
-        <br class="desktop">Or let us help you to choose.
-      </p>
+
+      <md-button class="typeform-share cta long md-raised md-primary md-hue-1" ng-href="{{agniumTypeform}}" data-mode="2" target="_blank">
+        Which one do you prefer?
+      </md-button>
+
     </section>
 
     <section id="who">
@@ -181,17 +182,14 @@
         </md-card>
 
       </div>
-      <h3 class="md-headline">
-        Let's discuss directly if it's suitable for you and us.
-      </h3>
       <md-button class="typeform-share cta big long md-raised md-primary" ng-href="{{agniumTypeform}}" data-mode="2" target="_blank">
-        So it's better to contact us, right?
+        Let's work together
       </md-button>
     </section>
 
     <section id="social">
       <h2 class="md-display-1">
-        OR
+          <strong>+</strong>
       </h2>
       <h3 class="md-headline">
         Get coached for free by checking us out on these networks.

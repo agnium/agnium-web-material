@@ -5,7 +5,7 @@ angular.module "agnium-web"
         'name': 'Sigit Prayoga',
         'url': 'https://linkedin.com/in/sigitprayoga',
         'title': 'People Lead',
-        'photo': 'agnium.png'
+        'photo': 'sigit_avatar.png'
       },
       {
         'name': 'M Haidar Hanif',
