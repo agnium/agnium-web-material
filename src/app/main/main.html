@@ -18,7 +18,7 @@
         <md-button class="typeform-share cta long md-raised md-primary md-hue-1" ng-href="{{agniumTypeform}}" data-mode="2" target="_blank">
           Learn more with us now
         </md-button>
-        <p class="small">Before you're of spots or we're out of office hours</p>
+        <p class="small">Before you're of spots or we're out of office hours.</p>
       </div>
     </section>
 
@@ -91,7 +91,7 @@
       <h2 class="md-display-1">
         <strong>Who</strong> We Are
       </h2>
-      <div class="members" layout-align="center center">
+      <div class="members" layout-align="center">
         <md-card ng-repeat="agniumMember in main.agniumMembers | orderBy:'rank'">
           <a ng-href="{{ agniumMember.url }}">
             <img class="md-card-image" ng-src="assets/images/{{ agniumMember.photo }}" alt="{{ agniumMember.title }}">
@@ -117,7 +117,7 @@
       <md-button class="typeform-share cta long md-raised md-primary md-hue-1" ng-href="{{agniumTypeform}}" data-mode="2" target="_blank">
         Get informed right now
       </md-button>
-      <p class="small">Before you're of spots or we're out of office hours</p>
+      <p class="small">Before you're of spots or we're out of office hours.</p>
     </section>
 
     <hr class="top">
@@ -126,26 +126,59 @@
       <h2 class="md-display-1">
           <strong>Where</strong> We Are
       </h2>
-      <div class="where-details" layout-align="right center">
-        <div class="maps">
-          MAPS
-        </div>
-        <address class="vcard">
-          <p class="fn">
-            <b>Agnium HQ</b>
-            <p class="email"><a href="mailto:info@agnium.co.id">info@agnium.co.id</a></p>
-            <p class="tel"><a href="tel:62-21-2963-6703">(+62-21) 2963 6703</a></p>
-            <p class="adr">
-              <a href="http://google.com/maps">
+      <div class="where-details" layout-align="center">
+
+        <md-card class="contact">
+          <md-card-content>
+            <address class="vcard">
+              <h3 class="fn">Agnium HQ</h3>
+              <span>
+                <md-button class="md-icon-button md-primary" aria-label="Email" ng-href="mailto:info@agnium.co.id" target="_blank">
+                  <md-icon md-svg-icon="/assets/images/icons/email.svg"></md-icon>
+                </md-button>
+                <md-button md-no-ink class="email" ng-href="mailto:info@agnium.co.id" target="_blank">
+                  info@agnium.co.id
+                </md-button>
+              </span>
+              <br>
+              <md-button class="md-icon-button md-primary" aria-label="Call" ng-href="tel:62-21-2963-6703" target="_blank">
+                <md-icon md-svg-icon="/assets/images/icons/call.svg"></md-icon>
+              </md-button>
+              <md-button md-no-ink class="tel" ng-href="tel:62-21-2963-6703" target="_blank">
+                (+62-21) 2963 6703
+              </md-button>
+              <br>
+              <md-button class="md-icon-button md-primary" aria-label="Place" ng-href="http://google.com/maps" target="_blank">
+                <md-icon md-svg-icon="/assets/images/icons/place.svg"></md-icon>
+              </md-button>
+              <div>
+              <md-button md-no-ink class="adr" ng-href="http://google.com/maps" target="_blank">
                 <span class="street-address">Level 38, Office Tower 88, Kota Kasablanka,<br>
                 Jl. Casablanca Raya Kav 88</span><br>
                 <span class="region">Jakarta Selatan, DKI Jakarta</span>
                 <span class="postal-code">12870</span>
                 <span class="country-name">Indonesia</span>
-              </a><br>
-              <span class="time">UTC/GMT +7</span>
-            </p>
-        </address>
+              </md-button>
+              </div>
+              <br>
+              <md-button class="md-icon-button md-primary" aria-label="Time">
+                <md-icon md-svg-icon="/assets/images/icons/time.svg"></md-icon>
+              </md-button>
+              <md-button md-no-ink class="time">
+                Mon-Fri: 10am to 9pm
+                <br class="desktop">
+                (UTC/GMT +7)
+              </md-button>
+            </address>
+          </md-card-content>
+        </md-card>
+
+        <md-card class="maps">
+          <md-card-content>
+            MAPS
+          </md-card-content>
+        </md-card>
+
       </div>
       <h3 class="md-headline">
         Let's discuss directly if it's suitable for you and us.
