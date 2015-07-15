@@ -44,7 +44,7 @@
       </h2>
       <div class="clients vertical-center" layout-align="center">
         <md-card ng-repeat="agniumClient in main.agniumClients | orderBy:'rank'">
-          <a ng-href="{{ agniumClient.url }}">
+          <a ng-href="{{ agniumClient.url }}" target="_blank">
             <img ng-src="/assets/images/{{ agniumClient.logo }}" alt="{{ agniumClient.title }}">
           </a>
         </md-card>
@@ -164,7 +164,7 @@
               <md-button class="md-icon-button md-primary" aria-label="Time">
                 <md-icon md-svg-icon="/assets/images/icons/time.svg"></md-icon>
               </md-button>
-              <md-button md-no-ink class="time" ng-href="http://time.is/Jakarta">
+              <md-button md-no-ink class="time" ng-href="http://time.is/Jakarta" target="_blank">
                 <span>Mon-Fri: 10am to 9pm</span>
                 <br class="mobile">
                 <span>(UTC/GMT +7)</span>
