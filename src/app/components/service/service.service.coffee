@@ -4,22 +4,22 @@ angular.module "agnium-web"
       {
         'title': 'Flexible Group Coaching',
         'description': 'description',
-        'image': 'agnium.png'
+        'image': 'i-coach.svg'
       },
       {
         'title': 'Class-based Company Training',
         'description': 'description',
-        'image': 'agnium.png'
+        'image': 'i-training.svg'
       },
       {
         'title': '1-on-1 Private Mentorship',
         'description': 'description',
-        'image': 'agnium.png'
+        'image': 'i-mentor.svg'
       },
       {
         'title': 'Agile Software Development',
         'description': 'description',
-        'image': 'agnium.png'
+        'image': 'i-develop.svg'
       }
     ]
 
