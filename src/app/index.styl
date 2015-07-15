@@ -99,7 +99,8 @@ footer
   color #fff
 
 #ticker
-  padding 10px
+  padding 0
+  height 20px
 
 #where
   padding-bottom 10px
@@ -138,11 +139,10 @@ md-whiteframe
   width 75%
   margin 0 auto
 
-md-fab
-  color #fff
-
 .md-button
   text-transform none
+  &.md-fab md-icon
+    color #fff
   &.md-raised
     margin 10px 10px
   header &, & span
@@ -159,9 +159,10 @@ md-fab
   display flex
   flex-flow row wrap
   md-card
+    width 80%
     a
       min-height 100px
-      padding-top 20px
+      padding-top 40px
     img
       width auto
       height 100px

@@ -56,7 +56,7 @@ angular.module "agnium-web"
         'class': 'fa-github'
       },
       {
-        'rank': 0,
+        'rank': 10,
         'name': 'Bitbucket',
         'url': 'https://bitbucket.org/agnium',
         'class': 'fa-bitbucket'
