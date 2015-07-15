@@ -22,11 +22,13 @@ body
 [layout=row]
   flex-direction row
 
-h1, h2, h3
+h1, h2, h3, h4, h5, h6
   font-family $font-header
+  padding 20px 0
+
+h3, h4, h5, h6
   margin-top 0
   margin-bottom 0
-  padding 20px 0
 
 h1
   font-family $font-header
@@ -43,7 +45,8 @@ a
   &:hover
     text-decoration underline
   i
-    color #ffffff
+    color #fff
+    margin 15px
 
 hr
   margin 0
@@ -93,7 +96,7 @@ footer
 
 #ticker, #where, #social
   background-color #e53935
-  color #ffffff
+  color #fff
 
 #ticker
   padding 10px
@@ -121,21 +124,6 @@ footer
   .contact
     // height 100%
 
-#social
-  padding-top 10px
-  #social-links
-    padding 20px 0
-    margin 0 auto
-    width 90%
-
-md-toolbar
-  position fixed
-  top 0
-  left 0
-  right 0
-  &.md-default-theme
-    background-color hsla(0,0%,100%,1)
-
 md-card
   min-height 50px
 
@@ -149,6 +137,9 @@ md-whiteframe
   padding 20px
   width 75%
   margin 0 auto
+
+md-fab
+  color #fff
 
 .md-button
   text-transform none

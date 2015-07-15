@@ -22,7 +22,10 @@
       </div>
     </section>
 
-    <section id="ticker">
+    <section id="ticker" layout="row" layout-sm="column" layout-align="center center">
+      <md-button class="md-fab" aria-label="Next">
+        <md-icon md-svg-src="/assets/images/icons/arrow-down.svg"></md-icon>
+      </md-button>
     </section>
 
     <hr class="bottom">
@@ -195,7 +198,7 @@
       </h3>
       <span id="social-links" ng-repeat="agniumSocial in main.agniumSocials | filter: filterSocial | orderBy:'rank'">
         <a href="{{ agniumSocial.url }}" target="_blank">
-            <i style="margin:15px" class="{{agniumSocial.class}}"></i>
+          <i class="fa fa-2x {{agniumSocial.class}}"></i>
         </a>
       </span>
     </section>

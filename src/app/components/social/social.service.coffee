@@ -5,61 +5,61 @@ angular.module "agnium-web"
         'rank': 1,
         'name': 'Google+',
         'url': 'https://google.com/+AgniumIDCorp',
-        'class': 'fa fa-google-plus fa-2x'
+        'class': 'fa-google-plus'
       },
       {
         'rank': 2,
         'name': 'Twitter',
         'url': 'https://twitter.com/agnium',
-        'class': 'fa fa-twitter fa-2x'
+        'class': 'fa-twitter'
       },
       {
         'rank': 3,
         'name': 'Facebook',
         'url': 'https://facebook.com/agnium.interactive',
-        'class': 'fa fa-facebook-official fa-2x'
+        'class': 'fa-facebook-official'
       },
       {
         'rank': 4,
         'name': 'LinkedIn',
         'url': 'https://linkedin.com/company/agnium',
-        'class': 'fa fa-linkedin fa-2x'
+        'class': 'fa-linkedin'
       },
       {
         'rank': 0,
         'name': 'YouTube',
         'url': 'https://youtube.com/c/AgnumIDCorp',
-        'class': 'fa fa-youtube fa-2x'
+        'class': 'fa-youtube'
       },
       {
         'rank': 6,
         'name': 'Medium',
         'url': 'https://medium.com/agnium-coaching-life',
-        'class': 'fa fa-medium fa-2x'
+        'class': 'fa-medium'
       },
       {
         'rank': 7,
         'name': 'Instagram',
         'url': 'https://instagram.com/agnium',
-        'class': 'fa fa-instagram fa-2x'
+        'class': 'fa-instagram'
       },
       {
         'rank': 8,
         'name': 'Tumblr',
         'url': 'https://agnium.tumblr.com',
-        'class': 'fa fa-tumblr fa-2x'
+        'class': 'fa-tumblr'
       },
       {
         'rank': 9,
         'name': 'GitHub',
         'url': 'https://github.com/agnium',
-        'class': 'fa fa-github fa-2x'
+        'class': 'fa-github'
       },
       {
         'rank': 0,
         'name': 'Bitbucket',
         'url': 'https://bitbucket.org/agnium',
-        'class': 'fa fa-bitbucket fa-2x'
+        'class': 'fa-bitbucket'
       },
       {
         'rank': 0,
