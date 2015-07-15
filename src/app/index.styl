@@ -42,6 +42,8 @@ a
   color #b71c1c
   &:hover
     text-decoration underline
+  i
+    color #ffffff
 
 hr
   margin 0
@@ -55,8 +57,6 @@ hr
 section
   text-align center
   padding 60px 0
-  &#with
-    padding 10px 0
   &.jumbotron
     margin-top 0
     margin-bottom 0
@@ -91,9 +91,12 @@ footer
   height 48px
   margin 0 30px
 
-#with, #what, #who, #where, #social
+#ticker, #where, #social
   background-color #e53935
   color #ffffff
+
+#ticker
+  padding 10px
 
 #where
   padding-bottom 10px
@@ -207,7 +210,7 @@ md-whiteframe
 @media (min-width 480px)
 
   section
-  padding 60px 20px
+    padding 60px 20px
     &.jumbotron
       h1
         font-size 2.2em

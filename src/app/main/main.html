@@ -22,14 +22,7 @@
       </div>
     </section>
 
-    <section id="with" class="desktop">
-      <div class="clients vertical-center" layout-align="center">
-        <md-card ng-repeat="agniumClient in main.agniumClients | orderBy:'rank'">
-          <a ng-href="{{ agniumClient.url }}">
-            <img ng-src="assets/images/{{ agniumClient.logo }}" alt="{{ agniumClient.title }}">
-          </a>
-        </md-card>
-      </div>
+    <section id="ticker">
     </section>
 
     <hr class="bottom">
@@ -42,7 +35,18 @@
       </md-whiteframe>
     </section>
 
-    <hr class="top">
+    <section id="with" class="desktop">
+      <h2 class="md-display-1">
+        <strong>Who</strong> We Have Worked With
+      </h2>
+      <div class="clients vertical-center" layout-align="center">
+        <md-card ng-repeat="agniumClient in main.agniumClients | orderBy:'rank'">
+          <a ng-href="{{ agniumClient.url }}">
+            <img ng-src="assets/images/{{ agniumClient.logo }}" alt="{{ agniumClient.title }}">
+          </a>
+        </md-card>
+      </div>
+    </section>
 
     <section id="what">
       <h2 class="md-display-1">
@@ -62,8 +66,6 @@
         And many more technologies!
       </p>
     </section>
-
-    <hr class="bottom">
 
     <section id="which">
       <h2 class="md-display-1">
@@ -85,8 +87,6 @@
       </p>
     </section>
 
-    <hr class="top">
-
     <section id="who">
       <h2 class="md-display-1">
         <strong>Who</strong> We Are
@@ -106,8 +106,6 @@
         Together, we help you passionately.
       </p>
     </section>
-
-    <hr class="bottom">
 
     <section>
       <h2 class="md-display-1">
