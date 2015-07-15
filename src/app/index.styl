@@ -24,14 +24,16 @@ body
 
 h1, h2, h3, h4, h5, h6
   font-family $font-header
-  padding 20px 0
+  padding 10px 0
+  md-card-content &
+    padding 0
+    margin 0
+  md-display-1
+    margin 0
 
 h3, h4, h5, h6
   margin-top 0
   margin-bottom 0
-
-h1
-  font-family $font-header
 
 p
   margin 15px
@@ -109,6 +111,7 @@ footer
     .fn
       text-align center
       font-size 1.6em
+      padding-bottom 30px
     .side
       display inline-block
     a.md-button:not(.md-icon-button)
@@ -128,6 +131,9 @@ footer
       background #9CCC65
   .contact
     // height 100%
+
+#social
+  padding-top 0
 
 md-card
   min-height 50px
@@ -169,6 +175,10 @@ md-whiteframe
     img
       width auto
       height 100px
+
+.where-details
+  display flex
+  flex-flow row wrap
 
 .clients
   display flex
@@ -222,12 +232,14 @@ md-whiteframe
     header &
       width 100px
       padding 2px 10px
-    #where &
-      margin 0
 
   .courses, .services
     md-card
       width 20%
+
+  .where-details
+    md-card
+      width 40%
 
   .members
     md-card
@@ -243,6 +255,12 @@ md-whiteframe
   .more
     font-size 1.6em
 
+@media (max-width 960px)
+
+  section
+    &.jumbotron
+      background-position 80% 0%
+
 @media (max-width 480px)
 
   .desktop
@@ -253,7 +271,7 @@ md-whiteframe
 
   section
     &.jumbotron
-      background-position 80% 0%
+      background-position 80% 20%
 
 /**
  *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject

@@ -45,7 +45,7 @@
       <div class="clients vertical-center" layout-align="center">
         <md-card ng-repeat="agniumClient in main.agniumClients | orderBy:'rank'">
           <a ng-href="{{ agniumClient.url }}">
-            <img ng-src="assets/images/{{ agniumClient.logo }}" alt="{{ agniumClient.title }}">
+            <img ng-src="/assets/images/{{ agniumClient.logo }}" alt="{{ agniumClient.title }}">
           </a>
         </md-card>
       </div>
@@ -58,7 +58,7 @@
       <div class="courses" layout-align="center">
         <md-card ng-repeat="agniumCourse in main.agniumCourses | orderBy:'rank'">
           <a ng-href="{{ agniumCourse.url }}">
-            <img class="md-card-image" ng-src="assets/images/{{ agniumCourse.image }}" alt="{{ agniumCourse.title }}">
+            <img class="md-card-image" ng-src="/assets/images/{{ agniumCourse.image }}" alt="{{ agniumCourse.title }}">
           </a>
           <md-card-content>
             <h2>{{ agniumCourse.title }}</h2>
@@ -77,7 +77,7 @@
       <div class="services" layout-align="center">
         <md-card ng-repeat="agniumService in main.agniumServices | orderBy:'rank'">
           <a ng-href="{{ agniumService.url }}">
-            <img class="md-card-image" ng-src="assets/images/{{ agniumService.image }}" alt="{{ agniumService.title }}">
+            <img class="md-card-image" ng-src="/assets/images/{{ agniumService.image }}" alt="{{ agniumService.title }}">
           </a>
           <md-card-content>
             <h2>{{ agniumService.title }}</h2>
@@ -96,7 +96,7 @@
       <div class="members" layout-align="center">
         <md-card ng-repeat="agniumMember in main.agniumMembers | orderBy:'rank'">
           <a ng-href="{{ agniumMember.url }}">
-            <img class="md-card-image" ng-src="assets/images/{{ agniumMember.photo }}" alt="{{ agniumMember.title }}">
+            <img class="md-card-image" ng-src="/assets/images/{{ agniumMember.photo }}" alt="{{ agniumMember.title }}">
           </a>
           <md-card-content>
             <h2>{{ agniumMember.name }}</h2>
