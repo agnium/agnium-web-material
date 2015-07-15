@@ -15,6 +15,6 @@ angular.module "agnium-web"
         'hue-1': '600'
         'hue-2': '900'
       })
-      .accentPalette('deep-orange', {
+      .accentPalette('grey', {
         'default': '200'
       })

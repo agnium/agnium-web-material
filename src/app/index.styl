@@ -13,6 +13,8 @@ $font-header = "Exo 2", sans-serif
 $font-body = "Oxygen", sans-serif
 $font-code = "Oxygen Mono", sans-serif
 
+$red-900 = #b71c1c
+
 html
   font-family $font-body
 
@@ -24,7 +26,7 @@ body
 
 h1, h2, h3, h4, h5, h6
   font-family $font-header
-  padding 10px 0
+  padding 20px 0
   margin 0
   md-card-content &
     padding 0
@@ -92,6 +94,15 @@ footer
   width 48px
   height 48px
 
+#with, #what, #which, #who, #will
+  &:before
+    content ""
+    display block
+    margin 0 auto
+    width 100px
+    height 2px
+    background-color $red-900
+
 #ticker, #where, #social
   background-color #e53935
   color #fff
@@ -136,7 +147,7 @@ md-card
   min-height 50px
   md-card-content
     padding 30px 10px
-    color #b71c1c
+    color $red-900
 
 md-whiteframe
   background #fff
@@ -148,7 +159,7 @@ md-whiteframe
 .md-button
   text-transform none
   &.md-fab md-icon
-    color #fff
+    color $red-900
   &.md-raised
     margin 10px 10px
   header &, & span
@@ -195,13 +206,16 @@ md-whiteframe
 .cta
   text-transform uppercase
   font-size 1.2em
-  &.long
+  .long&
     width 300px
     margin-left 0
-  &.big
+  .big&
     font-size 1.6em
     line-height 60px
     width 90%
+  .white&
+    background-color #fff
+    color $red-900 !important
 
 .no-border
   border-top-color none
