@@ -15,7 +15,6 @@ angular.module "agnium-web"
     $scope.filterSocial = (social) ->
       social.rank isnt 0
 
-
     activate = ->
       getClient()
       getCourse()
