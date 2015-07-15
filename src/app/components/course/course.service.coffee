@@ -2,17 +2,17 @@ angular.module "agnium-web"
   .service "course", () ->
     data = [
       {
-        'title': 'Creating web app with AngularJS',
+        'title': 'Building a web app with AngularJS',
         'description': 'description',
         'image': 'angular.png'
       },
       {
-        'title': 'Creating Android app with Java',
+        'title': 'Building an Android app',
         'description': 'description',
         'image': 'android.png'
       },
       {
-        'title': 'Creating iOS app with Swift',
+        'title': 'Building an iOS app with Swift',
         'description': 'description',
         'image': 'swift.png'
       },

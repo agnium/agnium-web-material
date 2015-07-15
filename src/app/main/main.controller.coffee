@@ -12,6 +12,10 @@ angular.module "agnium-web"
     $scope.agniumTypeform = "https://agnium.typeform.com/to/Sloe2h"
     $scope.agniumEmail = "mailto:info@agnium.co.id?subject=Hi, I want to learn more&body=Hi Agnium Team,%0D%0A%0D%0A%0D%0A"
 
+    $scope.filterSocial = (social) ->
+      social.rank isnt 0
+
+
     activate = ->
       getClient()
       getCourse()

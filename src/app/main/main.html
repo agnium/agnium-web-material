@@ -162,11 +162,11 @@
       <h3 class="md-headline">
         Get coached for free by checking us out on these networks.
       </h3>
-      <div id="social-links">
-        <md-button class="md-raised" ng-repeat="agniumSocial in main.agniumSocials | orderBy:'rank'" ng-href="{{ agniumSocial.url }}" target="_blank">
-          {{ agniumSocial.name }}
-        </md-button>
-      </div>
+      <span id="social-links" ng-repeat="agniumSocial in main.agniumSocials | filter: filterSocial | orderBy:'rank'">
+        <a href="{{ agniumSocial.url }}" target="_blank">
+            <i style="margin:15px" class="{{agniumSocial.class}}"></i>
+        </a>
+      </span>
     </section>
 
     <footer>
