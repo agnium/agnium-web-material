@@ -124,8 +124,9 @@ footer
       display inline-block
     a.md-button:not(.md-icon-button)
       text-align left
-      font-family $font-body
       vertical-align middle
+    a.md-button span
+      font-family $font-body !important
     a.md-icon-button
       vertical-align middle
   h2
@@ -208,7 +209,7 @@ md-whiteframe
   font-size 1.2em
   letter-spacing 2px
   .long&
-    width 400px
+    width 350px
     margin-left 0
   .big&
     font-size 1.6em
@@ -251,7 +252,9 @@ md-whiteframe
 
   .where-details
     md-card
-      width 40%
+      -webkit-flex 0 0 45%
+      -ms-flex 0 0 45%
+      flex 0 0 45%
 
   .members
     md-card
