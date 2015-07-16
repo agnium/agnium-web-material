@@ -103,7 +103,7 @@
       <div class="members" layout-align="center">
         <md-card ng-repeat="agniumMember in main.agniumMembers | orderBy:'rank'">
           <a ng-href="{{ agniumMember.url }}">
-            <img class="md-card-image" ng-src="/assets/images/{{ agniumMember.photo }}" alt="{{ agniumMember.title }}">
+            <img class="md-card-image" ng-src="/assets/images/{{ agniumMember.photo }}" alt="{{ agniumMember.name }}, the {{ agniumMember.title }}">
           </a>
           <md-card-content>
             <h2>{{ agniumMember.name }}</h2>
