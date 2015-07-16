@@ -62,6 +62,12 @@ angular.module "agnium-web"
         'class': 'fa-bitbucket'
       },
       {
+        'rank': 11,
+        'name': 'AngelList',
+        'url': 'https://angel.co/agnium',
+        'class': 'fa-angellist'
+      },
+      {
         'rank': 0,
         'name': 'Coderwall',
         'url': 'https://coderwall.com/team/agnium',
@@ -71,12 +77,6 @@ angular.module "agnium-web"
         'rank': 0,
         'name': 'Meetup',
         'url': 'https://meetup.com/Jakarta-Learns-Programming',
-        'class': ''
-      },
-      {
-        'rank': 0,
-        'name': 'AngelList',
-        'url': 'https://angel.co/agnium',
         'class': ''
       },
       {
@@ -95,6 +95,12 @@ angular.module "agnium-web"
         'rank': 0,
         'name': 'Tech in Asia',
         'url': 'https://techinasia.com/startup/agnium',
+        'class': ''
+      },
+      {
+        'rank': 0,
+        'name': 'Wikipedia',
+        'url': 'https://en.wikipedia.org/wiki/Agnium',
         'class': ''
       }
     ]
