@@ -13,7 +13,15 @@ $font-header = "Exo 2", sans-serif
 $font-body = "Oxygen", sans-serif
 $font-code = "Oxygen Mono", sans-serif
 
+$red-50  = #ffebee
+$red-100 = #ffcdd2
 $red-900 = #b71c1c
+
+::selection
+  text-shadow none
+  background $red-100
+  img&
+    background transparent
 
 html
   font-family $font-body
@@ -116,12 +124,9 @@ footer
   address
     text-align left
     font-style normal
-    .fn
+    h3
       text-align center
-      font-size 1.6em
       padding-bottom 30px
-    .side
-      display inline-block
     a.md-button:not(.md-icon-button)
       text-align left
       vertical-align middle
@@ -129,17 +134,23 @@ footer
       font-family $font-body !important
     a.md-icon-button
       vertical-align middle
+    .side
+      display inline-block
   h2
     margin-top 20px
     margin-bottom 20px
+  h3
+    font-size 1.6em
   span, p
     font-size 21px
   .maps
-    height 300px
+    overflow hidden
     md-card-content
-      background #9CCC65
-  .contact
-    // height 100%
+      flex 0 1 600px
+      min-width 600px
+      padding 0
+      background-position 50% 50%
+      background-image: url(http://api.tiles.mapbox.com/v4/agnium.ae95e2fe/106.842199,-6.224568,16/600x600.jpg80?access_token=pk.eyJ1IjoiYWduaXVtIiwiYSI6IjI0YmI1ZTljODg2YjRjMDZiMGU1ZTU1ZGE2ZTI2NjQ2In0.i4ED2rsbkFKnAPg5OSHZog);
 
 #social
   padding-top 0
@@ -150,7 +161,7 @@ md-card
   md-card-content
     padding 30px 10px
     color $red-900
-    border-radius 10px 10px 0 0
+    border-radius 10px
   .md-card-image
     border-radius 10px 10px 0 0
 
