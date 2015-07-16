@@ -1,6 +1,18 @@
 {
   "name": "agnium-web-material",
   "version": "0.1.0",
+  "description": "Offical Agnium website with AngularJS and Material Design",
+  "author": "Agnium <info@agnium.co.id>",
+  "contributors": [
+    "M Haidar Hanif <mhaidarhanif@gmail.com> (http://mhaidarhanif.com)",
+    "Sigit Prayoga <prayoga.sigit@gmail.com> (https://linkedin.com/in/sigitprayoga)",
+  ],
+  "keywords": [
+    "agnium",
+    "website",
+    "angularjs",
+    "material"
+  ],
   "dependencies": {},
   "scripts": {
     "test": "gulp test"
@@ -55,5 +67,11 @@
   },
   "engines": {
     "node": ">=0.12.0"
-  }
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/agnium/agnium-web-material"
+  },
+  "license": "BSD-3-Clause"
 }
