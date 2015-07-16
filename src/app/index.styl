@@ -146,9 +146,13 @@ footer
 
 md-card
   min-height 50px
+  border-radius 10px
   md-card-content
     padding 30px 10px
     color $red-900
+    border-radius 10px 10px 0 0
+  .md-card-image
+    border-radius 10px 10px 0 0
 
 md-whiteframe
   background #fff
@@ -159,8 +163,12 @@ md-whiteframe
 
 .md-button
   text-transform none
-  &.md-fab md-icon
-    color $red-900
+  &.md-hue-1
+    border-radius 10px !important
+  &.md-fab
+    border-radius 50%
+    md-icon
+      color $red-900
   &.md-raised
     margin 10px 10px
   header &, & span
