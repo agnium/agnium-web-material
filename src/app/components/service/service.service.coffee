@@ -2,7 +2,7 @@ angular.module "agnium-web"
   .service "service", () ->
     data = [
       {
-        'title': 'Flexible Group Coaching',
+        'title': '1-on-1 Private Coaching',
         'description': 'description',
         'image': 'i-coach.svg'
       },
@@ -12,15 +12,20 @@ angular.module "agnium-web"
         'image': 'i-training.svg'
       },
       {
-        'title': '1-on-1 Private Mentorship',
+        'title': 'Flexible Group Mentorship',
         'description': 'description',
         'image': 'i-mentor.svg'
       },
       {
-        'title': 'Agile Software Development',
+        'title': 'Case Study Counselling',
         'description': 'description',
-        'image': 'i-develop.svg'
+        'image': 'i-counsel.svg'
       }
+      # {
+      #   'title': 'Agile Software Development',
+      #   'description': 'description',
+      #   'image': 'i-develop.svg'
+      # }
     ]
 
     getService = ->
