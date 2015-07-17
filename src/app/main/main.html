@@ -10,7 +10,8 @@
       <div class="container">
         <h1>
           We develop software.
-          <br>And <agnium-malarkey extra-values="['people', 'engineers', 'developers', 'businesses', 'you']" />
+          <br>And
+          <agnium-malarkey extra-values="['people', 'engineers', 'developers', 'businesses', 'you']">
         </h1>
         <h2>
           Enhance the effectiveness of your digital business team.
@@ -51,28 +52,6 @@
       </div>
     </section>
 
-    <section id="what">
-      <h2 class="md-display-1">
-        <strong>What</strong> Are The Available Courses
-      </h2>
-      <div class="courses" layout-align="center">
-        <md-card ng-repeat="agniumCourse in main.agniumCourses | orderBy:'rank'">
-          <a ng-href="{{ agniumCourse.url }}">
-            <img class="md-card-image" ng-src="/assets/images/{{ agniumCourse.image }}" alt="{{ agniumCourse.title }}">
-          </a>
-          <md-card-content>
-            <h2>{{ agniumCourse.title }}</h2>
-          </md-card-content>
-        </md-card>
-      </div>
-      <p class="more">
-        And many more technologies!
-      </p>
-      <md-button class="typeform-share cta long md-raised md-primary md-hue-1" ng-href="{{agniumTypeform}}" data-mode="2" target="_blank">
-        Get 1-week of free course
-      </md-button>
-    </section>
-
     <section id="which">
       <h2 class="md-display-1">
         <strong>Which</strong> Services You Need
@@ -94,6 +73,28 @@
         Which one do you prefer?
       </md-button>
         <p class="small">To increase your competitive business value from others.</p>
+    </section>
+
+    <section id="what">
+      <h2 class="md-display-1">
+        <strong>What</strong> Are The Available Courses
+      </h2>
+      <div class="courses" layout-align="center">
+        <md-card ng-repeat="agniumCourse in main.agniumCourses | orderBy:'rank'">
+          <a ng-href="{{ agniumCourse.url }}">
+            <img class="md-card-image" ng-src="/assets/images/{{ agniumCourse.image }}" alt="{{ agniumCourse.title }}">
+          </a>
+          <md-card-content>
+            <h2>{{ agniumCourse.title }}</h2>
+          </md-card-content>
+        </md-card>
+      </div>
+      <p class="more">
+        And many more technologies!
+      </p>
+      <md-button class="typeform-share cta long md-raised md-primary md-hue-1" ng-href="{{agniumTypeform}}" data-mode="2" target="_blank">
+        Get 1-week of free course
+      </md-button>
     </section>
 
     <section id="who">
