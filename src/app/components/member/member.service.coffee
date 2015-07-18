@@ -3,15 +3,17 @@ angular.module "agnium-web"
     data = [
       {
         'name': 'Sigit Prayoga',
-        'url': 'https://linkedin.com/in/sigitprayoga',
         'title': 'People Lead',
+        'url': ""
         'photo': 'sigitprayoga.jpg'
+        'photoUrl': 'https://linkedin.com/in/sigitprayoga',
       },
       {
         'name': 'M Haidar Hanif',
-        'url': 'https://linkedin.com/in/mhaidarhanif',
         'title': 'Technical Lead',
+        'url': 'http://mhaidarhanif.com',
         'photo': 'mhaidarhanif.jpg'
+        'photoUrl': 'https://linkedin.com/in/mhaidarhanif',
       }
     ]
 
