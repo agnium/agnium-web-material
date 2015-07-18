@@ -81,7 +81,7 @@
       </h2>
       <div class="courses" layout-align="center">
         <md-card ng-repeat="agniumCourse in main.agniumCourses | orderBy:'rank'">
-          <a ng-href="{{ agniumCourse.url }}" rel="publisher">
+          <a ng-href="{{ agniumCourse.url }}">
             <img class="md-card-image" ng-src="/assets/images/{{ agniumCourse.image }}" alt="{{ agniumCourse.title }}">
           </a>
           <md-card-content>
