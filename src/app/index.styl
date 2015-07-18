@@ -49,13 +49,18 @@ p
     font-size 1em
 
 a
-  text-decoration none
   color #b71c1c
+  text-decoration none
   &:hover
     text-decoration underline
   i
     color #fff
     margin 15px
+  header &.md-button
+    border-radius 10px
+    border 1px solid white
+    &.active
+      border 1px solid $red-900
 
 hr
   margin 0
@@ -244,7 +249,7 @@ md-whiteframe
 @media (min-width 480px)
 
   section
-    padding 60px 20px
+    padding 80px 20px
     &.jumbotron
       h1
         font-size 2.2em
@@ -252,6 +257,9 @@ md-whiteframe
       font-size 1.4em
 
 @media (min-width 960px)
+
+  #logo
+    margin 0 30px
 
   section
     &.jumbotron
