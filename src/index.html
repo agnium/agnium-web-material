@@ -1,73 +1,83 @@
 <!doctype html>
 <html ng-app="agnium-web">
-  <head>
-    <base href="/">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agnium | We develop software. And people.</title>
-    <meta name="author" content="Agnium">
-    <meta name="description" content="Agnium is a B2B service company which provides training and mentoring program for software development team in companies or organizations.">
-    <meta name="keywords" content="agnium, develop, development, engineering, design, technology, software, digital, people, engineers, developers, businesses, startup, company, coach, coaching, training, mentor, mentoring, mentorship, counsel, counseling, counselor, jakarta, indonesia">
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Agnium">
-    <meta property="og:site_name" content="Agnium | We develop software. And people.">
-    <meta property="og:description" content="Agnium is a B2B service company which provides training and mentoring program for software development team in companies or organizations.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://agnium.co.id">
-    <meta property="og:image" content="http://agnium.co.id/assets/images/agnium_facebook_stream_1200x630.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@agnium">
-    <meta name="twitter:creator" content="@agnium">
-    <meta name="twitter:title" content="Agnium">
-    <meta name="twitter:description" content="Agnium is a B2B service company which provides training and mentoring program for software development team in companies or organizations.">
-    <meta name="twitter:url" content="http://agnium.co.id">
-    <meta name="twitter:image" content="http://agnium.co.id/assets/images/agnium_twitter_stream_1024x512.jpg">
-    <!-- Others -->
-    <meta name="p:domain_verify" content="fa41351ccc4674691e1911bec136a876"/>
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agnium | We develop software. And people.</title>
+  <meta name="author" content="Agnium">
+  <meta name="description" content="Agnium is a B2B service company which provides training and mentoring program for software development team in companies or organizations.">
+  <meta name="keywords" content="agnium, develop, development, engineering, design, technology, software, digital, people, engineers, developers, businesses, startup, company, coach, coaching, training, mentor, mentoring, mentorship, counsel, counseling, counselor, jakarta, indonesia">
 
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <!-- Put favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- Open Graph -->
+  <meta property="og:title" content="Agnium">
+  <meta property="og:site_name" content="Agnium | We develop software. And people.">
+  <meta property="og:description" content="Agnium is a B2B service company which provides training and mentoring program for software development team in companies or organizations.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://agnium.co.id">
+  <meta property="og:image" content="http://agnium.co.id/assets/images/agnium_facebook_stream_1200x630.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@agnium">
+  <meta name="twitter:creator" content="@agnium">
+  <meta name="twitter:title" content="Agnium">
+  <meta name="twitter:description" content="Agnium is a B2B service company which provides training and mentoring program for software development team in companies or organizations.">
+  <meta name="twitter:url" content="http://agnium.co.id">
+  <meta name="twitter:image" content="http://agnium.co.id/assets/images/agnium_twitter_stream_1024x512.jpg">
+  <!-- Structured Data Markup for Google -->
+  <script type="application/ld+json">
+    { "@context": "http://schema.org", "@type": "Organization", "name" : "Agnium", "url": "http://amp.asia", "image" : "http://agnium.co.id/assets/images/agnium_text_red.png", "logo": "http://agnium.co.id/assets/images/agnium.png", "email" : "hello@amp.asia",
+    "address" : { "@type" : "PostalAddress", "streetAddress" : "Level 38, 88 Office Tower, Jl. Kasablanka Raya Kav. 88", "addressLocality" : "Jakarta Selatan", "addressRegion" : "DKI Jakarta", "addressCountry" : "Indonesia", "postalCode" : "12870" }, "contactPoint": [ { "@type":
+    "ContactPoint", "telephone": "+62-21-29636703", "contactType": "customer service", "areaServed": "ID", "availableLanguage": "Indonesian" } ], "sameAs" : [ "https://facebook.com/agnium.interactive", "https://twitter.com/agnium", "https://plus.google.com/+AgniumIDCorp",
+    "https://linkedin.com/company/agnium", "https://youtube.com/c/AgniumIDCorp" ] }
+  </script>
+  <!-- Others -->
+  <meta name="p:domain_verify" content="fa41351ccc4674691e1911bec136a876" />
 
-    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- run `gulp inject` to automatically populate bower styles dependencies -->
-    <!-- endbower -->
-    <!-- endbuild -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- Put favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <!-- build:css({.tmp/serve,src}) styles/app.css -->
-    <!-- inject:css -->
-    <!-- css files will be automatically insert here -->
-    <!-- endinject -->
-    <!-- endbuild -->
-  </head>
-  <body>
-    <!--[if lt IE 10]>
+  <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css({.tmp/serve,src}) styles/app.css -->
+  <!-- inject:css -->
+  <!-- css files will be automatically insert here -->
+  <!-- endinject -->
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div ui-view></div>
+  <div ui-view></div>
 
-    <!-- build:js(src) scripts/vendor.js -->
-    <!-- bower:js -->
-    <!-- run `gulp inject` to automatically populate bower script dependencies -->
-    <!-- endbower -->
-    <!-- endbuild -->
+  <!-- build:js(src) scripts/vendor.js -->
+  <!-- bower:js -->
+  <!-- run `gulp inject` to automatically populate bower script dependencies -->
+  <!-- endbower -->
+  <!-- endbuild -->
 
-    <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
-    <!-- inject:js -->
-    <!-- js files will be automatically insert here -->
-    <!-- endinject -->
+  <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
+  <!-- inject:js -->
+  <!-- js files will be automatically insert here -->
+  <!-- endinject -->
 
-    <!-- inject:partials -->
-    <!-- angular templates will be automatically converted in js and inserted here -->
-    <!-- endinject -->
-    <!-- endbuild -->
+  <!-- inject:partials -->
+  <!-- angular templates will be automatically converted in js and inserted here -->
+  <!-- endinject -->
+  <!-- endbuild -->
 
-  </body>
+</body>
+
 </html>
