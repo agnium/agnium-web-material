@@ -15,6 +15,8 @@ $font-code = "Oxygen Mono", sans-serif
 
 $red-50  = #ffebee
 $red-100 = #ffcdd2
+$red-500 = #f44336
+$red-700 = #d32f2f
 $red-900 = #b71c1c
 
 ::selection
@@ -49,18 +51,27 @@ p
     font-size 1em
 
 a
-  color #b71c1c
+  color $red-900
+  position relative
   text-decoration none
-  &:hover
-    text-decoration underline
+  -webkit-transition all 0.5s ease
+  transition all 0.5s ease
+  & *
+    -webkit-transition all 0.5s ease
+    transition all 0.5s ease
+  &:hover h2
+    color $red-500
+  &.md-button
+    -webkit-transition all 0.5s ease
+    transition all 0.5s ease
   i
     color #fff
     margin 15px
   header &.md-button
     border-radius 10px
-    border 1px solid white
+    border 2px solid white
     &.active
-      border 1px solid $red-900
+      border-color $red-900
 
 hr
   margin 0
