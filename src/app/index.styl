@@ -115,8 +115,16 @@ footer
   color #fff
 
 #logo
-  width 48px
+  width 168px
   height 48px
+  background-image url("/assets/images/agnium.svg")
+  background-position center
+  @media only screen and (min-width 480px)
+    width 48px
+    background-position 0 48px
+  @media only screen and (min-width 720px)
+    width 168px
+    background-position center
 
 #with, #what, #which, #who, #will
   &:before
