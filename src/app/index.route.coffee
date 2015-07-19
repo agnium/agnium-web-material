@@ -7,6 +7,8 @@ angular.module "agnium-web"
         controller: "MainController"
         controllerAs: "main"
 
-    $urlRouterProvider.otherwise '/'
+    $urlRouterProvider
+      .when "", "/"
+      .otherwise "/"
 
     $locationProvider.html5Mode(true)
