@@ -1,6 +1,6 @@
 {
   "name": "agnium-web-material",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "angular": "~1.4.0",
     "angular-animate": "~1.4.0",
