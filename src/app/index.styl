@@ -34,6 +34,9 @@ body
 [layout=row]
   flex-direction row
 
+header
+  height 60px
+
 h1, h2, h3, h4, h5, h6
   font-family $font-header
   padding 20px 0
@@ -48,6 +51,7 @@ p
   margin 15px
   &.small
     margin 0
+    // padding 10px
     font-size 1em
 
 a
@@ -251,9 +255,11 @@ md-whiteframe
   text-transform uppercase
   font-size 1.2em
   letter-spacing 2px
+  margin 0 auto
   .long&
     width 350px
-    margin-left 0
+    .jumbotron &
+      margin-left 0
   .big&
     font-size 1.6em
     line-height 60px
@@ -333,6 +339,26 @@ md-whiteframe
   section
     &.jumbotron
       background-position 80% 20%
+
+@media (max-width 480px)
+
+  h1, h2, h3, h4, h5, h6
+    padding 10px 0
+
+  .md-button
+    header &, & span
+      font-size 0.8em
+
+  .cta
+    &.long
+      width 90%
+    &.big
+      height 60px
+      width 90%
+
+  md-whiteframe
+    padding 0
+    margin-top 20px
 
 /**
  *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
