@@ -1,6 +1,6 @@
 {
   "name": "agnium-web-material",
-  "root": "./",
+  "root": "./dist",
   "clean_urls": true,
   "error_page": "404.html"
 }

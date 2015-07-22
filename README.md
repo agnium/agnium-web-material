@@ -23,6 +23,10 @@ The boilerplate was generated with [generator-gulp-angular](https://github.com/S
 + `gulp protractor` to launch your e2e tests with Protractor
 + `gulp protractor:dist` to launch your e2e tests with Protractor on the dist files
 
+### Deployment
+
+Build the website using `gulp build`, then do `divshot push`.
+
 
 ## Directory structure
 
