@@ -15,7 +15,8 @@ function browserSyncInit(baseDir, browser) {
   browser = browser === undefined ? 'default' : browser;
 
   var routes = null;
-  if(baseDir === conf.paths.src || (util.isArray(baseDir) && baseDir.indexOf(conf.paths.src) !== -1)) {
+  if (baseDir === conf.paths.src || (util.isArray(baseDir) && baseDir.indexOf(
+      conf.paths.src) !== -1)) {
     routes = {
       '/bower_components': 'bower_components'
     };
@@ -43,21 +44,40 @@ function browserSyncInit(baseDir, browser) {
 }
 
 browserSync.use(browserSyncSpa({
-  selector: '[ng-app]'// Only needed for angular apps
+  selector: '[ng-app]' // Only needed for angular apps
 }));
 
-gulp.task('serve', ['watch'], function () {
+gulp.task('serve', ['watch'], function() {
   browserSyncInit([path.join(conf.paths.tmp, '/serve'), conf.paths.src]);
 });
 
-gulp.task('serve:dist', ['build'], function () {
+gulp.task('serve:dist', ['build'], function() {
   browserSyncInit(conf.paths.dist);
 });
 
-gulp.task('serve:e2e', ['inject'], function () {
+gulp.task('serve:e2e', ['inject'], function() {
   browserSyncInit([conf.paths.tmp + '/serve', conf.paths.src], []);
 });
 
-gulp.task('serve:e2e-dist', ['build'], function () {
+gulp.task('serve:e2e-dist', ['build'], function() {
   browserSyncInit(conf.paths.dist, []);
 });
+
+// Integration with Divshot
+
+gulp.task('server', function(cb) {
+  var spawn = require('child_process').spawn;
+  var log = function(data) {
+    console.log("[Divshot] " + data.toString().trim());
+  }
+
+  var server = spawn('divshot', ['server', '--port', '3000']);
+
+  server.on('error', function(error) {
+    console.log(error.stack)
+  });
+  server.stdout.on('data', log);
+  server.stderr.on('data', log);
+});
+
+gulp.task('dev', ['serve', 'server']);
