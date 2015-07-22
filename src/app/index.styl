@@ -74,6 +74,7 @@ a
   header &.md-button
     border-radius 10px
     border 2px solid white
+    line-height 2em
     &.active
       border-color $red-900
 
@@ -179,6 +180,8 @@ footer
       padding 0
       background-position 50% 50%
       background-image: url(http://api.tiles.mapbox.com/v4/agnium.ae95e2fe/106.842199,-6.224568,16/600x600.jpg80?access_token=pk.eyJ1IjoiYWduaXVtIiwiYSI6IjI0YmI1ZTljODg2YjRjMDZiMGU1ZTU1ZGE2ZTI2NjQ2In0.i4ED2rsbkFKnAPg5OSHZog);
+
+
 
 #social
   padding-top 0
@@ -328,6 +331,12 @@ md-whiteframe
     &.jumbotron
       background-position 80% 0%
 
+  #where
+    .maps
+      md-card-content
+        flex 0 1 500px
+        min-width 500px
+
 @media (max-width 480px)
 
   .desktop
@@ -339,8 +348,6 @@ md-whiteframe
   section
     &.jumbotron
       background-position 80% 20%
-
-@media (max-width 480px)
 
   h1, h2, h3, h4, h5, h6
     padding 10px 0
@@ -359,6 +366,12 @@ md-whiteframe
   md-whiteframe
     padding 0
     margin-top 20px
+
+  #where
+    .maps
+      md-card-content
+        flex 0 1 400px
+        min-width 400px
 
 /**
  *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
