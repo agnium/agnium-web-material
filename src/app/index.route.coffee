@@ -1,8 +1,6 @@
 angular.module "agnium-web"
-  .config (["$stateProvider"
-           "$urlRouterProvider"
-           "$locationProvider"
-           ($stateProvider, $urlRouterProvider, $locationProvider) ->
+  .config(["$stateProvider", "$urlRouterProvider", "$locationProvider", ($stateProvider, $urlRouterProvider, $locationProvider) ->
+
     $stateProvider
       .state "home",
         url: "/"
@@ -15,4 +13,5 @@ angular.module "agnium-web"
       .otherwise "/"
 
     $locationProvider.html5Mode(true)
-])
+
+  ])
