@@ -1,7 +1,7 @@
 angular.module "agnium-web"
   .directive 'agniumNavbar', ->
 
-    NavbarController = (moment) ->
+    NavbarController = () ->
       vm = this
       return
 

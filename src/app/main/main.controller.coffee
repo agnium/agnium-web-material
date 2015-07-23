@@ -1,5 +1,5 @@
 angular.module "agnium-web"
-  .controller "MainController", ($scope, $timeout, client, course, service, member, social, toastr) ->
+  .controller "MainController", ($scope, $timeout, client, course, service, member, social) ->
     vm = this
     vm.agniumClients  = []
     vm.agniumCourses  = []
@@ -7,7 +7,6 @@ angular.module "agnium-web"
     vm.agniumMembers  = []
     vm.agniumSocials  = []
     vm.classAnimation = ''
-    vm.showToastr = showToastr
 
     $scope.agniumTypeform = "https://agnium.typeform.com/to/Sloe2h"
     $scope.agniumEmail = "mailto:info@agnium.co.id?subject=Hi, I want to learn more&body=Hi Agnium Team,%0D%0A%0D%0A%0D%0A"
@@ -21,11 +20,6 @@ angular.module "agnium-web"
       getService()
       getMember()
       getSocial()
-      return
-
-    showToastr = ->
-      toastr.info 'Follow us on <a href="https://twitter.com/agnium" target="_blank"><b>Twitter</b>!</a>'
-      vm.classAnimation = ''
       return
 
     getClient = ->

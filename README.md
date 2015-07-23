@@ -68,5 +68,12 @@ The root directory generated for a app with name `agnium-web-material`:
 ├──  protractor.conf.js
 ```
 
+### Removed Dependencies
 
-
+```
+"angular-animate": "~1.4.0"
+"angular-cookies": "~1.4.0"
+"angular-touch": "~1.4.0"
+"angular-sanitize": "~1.4.0"
+"restangular": "~1.5.1"
+```

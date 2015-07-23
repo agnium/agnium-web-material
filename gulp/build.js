@@ -92,6 +92,12 @@ gulp.task('other', function() {
     .pipe(gulp.dest(path.join(conf.paths.dist, '/')));
 });
 
+gulp.task('images', function() {
+  return gulp.src('logo.svg')
+    .pipe(svgmin())
+    .pipe(gulp.dest('./out'))
+});
+
 gulp.task('clean', function(done) {
   $.del([path.join(conf.paths.dist, '/'), path.join(conf.paths.tmp, '/')],
     done);
