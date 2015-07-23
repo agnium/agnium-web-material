@@ -1,5 +1,5 @@
 angular.module "agnium-web"
-  .config(["$stateProvider", "$urlRouterProvider", "$locationProvider", ($stateProvider, $urlRouterProvider, $locationProvider) ->
+  .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', ($stateProvider, $urlRouterProvider, $locationProvider) ->
 
     $stateProvider
       .state "home",
