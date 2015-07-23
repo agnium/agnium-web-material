@@ -4,7 +4,7 @@ angular.module "agnium-web"
       {
         'name': 'Sigit Prayoga',
         'title': 'People Lead',
-        'url': ""
+        'url': "https://linkedin.com/in/sigitprayoga"
         'photo': 'sigitprayoga.jpg'
         'photoUrl': 'https://linkedin.com/in/sigitprayoga',
       },
