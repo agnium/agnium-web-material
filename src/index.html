@@ -18,15 +18,15 @@
   <meta property="og:description" content="Agnium is a B2B service company which provides training and mentoring program for software development team in companies or organizations.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://agnium.co.id">
-  <meta property="og:image" content="http://agnium.co.id/assets/images/agnium_facebook_stream_1200x630.png">
-  <meta property="og:image:type" content="image/png">
+  <meta property="og:image" content="http://agnium.co.id/assets/images/agnium_facebook_stream_1200x630.jpg">
+  <meta property="og:image:type" content="image/jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@agnium">
   <meta name="twitter:creator" content="@agnium">
-  <meta name="twitter:title" content="Agnium">
+  <meta name="twitter:title" content="Agnium | We develop software. And people.">
   <meta name="twitter:description" content="Agnium is a B2B service company which provides training and mentoring program for software development team in companies or organizations.">
   <meta name="twitter:url" content="http://agnium.co.id">
   <meta name="twitter:image" content="http://agnium.co.id/assets/images/agnium_twitter_stream_1024x512.jpg">
@@ -71,14 +71,6 @@
   </script>
   <!-- Others -->
   <meta name="p:domain_verify" content="fa41351ccc4674691e1911bec136a876" />
-</head>
-
-<body>
-  <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
-  <div ui-view></div>
 
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
@@ -94,13 +86,22 @@
   <!-- endinject -->
   <!-- endbuild -->
 
-  <!-- build:js(src) scripts/vendor.js -->
+</head>
+
+<body>
+
+  <!--[if lt IE 10]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div ui-view></div>
+
+  <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/all.js -->
+
   <!-- bower:js -->
   <!-- run `gulp inject` to automatically populate bower script dependencies -->
   <!-- endbower -->
-  <!-- endbuild -->
 
-  <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
   <!-- inject:js -->
   <!-- js files will be automatically insert here -->
   <!-- endinject -->
@@ -108,11 +109,8 @@
   <!-- inject:partials -->
   <!-- angular templates will be automatically converted in js and inserted here -->
   <!-- endinject -->
-  <!-- endbuild -->
 
-  <script type="text/javascript" async defer
-    src="https://apis.google.com/js/platform.js?publisherid=115632108523410407846">
-  </script>
+  <!-- endbuild -->
 
 </body>
 
