@@ -72,7 +72,17 @@
   <!-- Others -->
   <meta name="p:domain_verify" content="fa41351ccc4674691e1911bec136a876" />
 
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+
+</head>
+
+<body>
+
+  <!--[if lt IE 10]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div ui-view></div>
 
   <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
   <!-- bower:css -->
@@ -85,16 +95,6 @@
   <!-- css files will be automatically insert here -->
   <!-- endinject -->
   <!-- endbuild -->
-
-</head>
-
-<body>
-
-  <!--[if lt IE 10]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
-
-  <div ui-view></div>
 
   <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/all.js -->
 
@@ -111,6 +111,7 @@
   <!-- endinject -->
 
   <!-- endbuild -->
+
 
 </body>
 
