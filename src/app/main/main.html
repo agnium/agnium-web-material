@@ -191,11 +191,13 @@
       <h3 class="md-headline">
         Get coached for free by checking us out on these networks.
       </h3>
-      <span id="social-links" ng-repeat="agniumSocial in main.agniumSocials | filter: filterSocial | orderBy:'rank'">
-        <a href="{{ agniumSocial.url }}" target="_blank">
-          <i class="fa fa-2x {{agniumSocial.class}}"></i>
-        </a>
-      </span>
+      <div class="links">
+        <span class="network" ng-repeat="agniumSocial in main.agniumSocials | filter: filterSocial | orderBy:'rank'">
+          <a class="icon" href="{{ agniumSocial.url }}" target="_blank">
+            <img src="/assets/images/network/{{ agniumSocial.image}}.svg" alt="Agnium on {{agniumSocial.name}}">
+          </a>
+        </span>
+      </div>
     </section>
 
     <footer>
