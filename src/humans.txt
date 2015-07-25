@@ -19,6 +19,5 @@ Everyone on the World Wide Web and Internet!
 
 Last update: 2015/07/20
 Standards: HTML5, CSS3
-Components: AngularJS, Material Design, Jade, Stylus, jQuery, Modernizr
+Components: AngularJS, Material Design, Jade, Stylus, Zepto/jQuery, Modernizr
 Software: Vim, Atom, GitHub, Bitbucket, Divshot, Yeoman, Gulp, live-server
-
