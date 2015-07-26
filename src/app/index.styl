@@ -76,9 +76,6 @@ a
     line-height 2em
     &.active
       border-color $red-900
-  &[rel="license"]
-    color $red-50
-    border-bottom 1px solid $red-50
 
 hr
   margin 0
@@ -120,6 +117,11 @@ footer
   padding 2em 0
   background-color #b71c1c
   color #fff
+  .license
+    line-height 1.6em
+    a[rel="license"]
+      color $red-50
+      border-bottom 1px solid $red-50
 
 #logo
   width 168px
@@ -180,10 +182,8 @@ footer
       flex 0 1 600px
       min-width 600px
       padding 0
-      background-position 50% 50%
-      background-image: url(http://api.tiles.mapbox.com/v4/agnium.ae95e2fe/106.842199,-6.224568,16/600x600.jpg80?access_token=pk.eyJ1IjoiYWduaXVtIiwiYSI6IjI0YmI1ZTljODg2YjRjMDZiMGU1ZTU1ZGE2ZTI2NjQ2In0.i4ED2rsbkFKnAPg5OSHZog);
-
-
+      background-position 70% 50%
+      background-image: url("/assets/images/map.jpg")
 
 #social
   padding-top 0
@@ -298,7 +298,7 @@ md-whiteframe
 @media (min-width 960px)
 
   #logo
-    margin 0 30px
+    margin 3px 30px
 
   section
     &.jumbotron
