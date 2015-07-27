@@ -1,0 +1,7 @@
+deploy.sh
+rsync_exclude_dev.txt
+rsync_exclude_staging.txt
+.DS_Store
+uploads/
+logs/
+cache/
