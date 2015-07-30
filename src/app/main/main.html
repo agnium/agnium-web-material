@@ -194,7 +194,7 @@
       <div class="links">
         <span class="network" ng-repeat="agniumSocial in main.agniumSocials | filter: filterSocial | orderBy:'rank'">
           <a class="icon" href="{{ agniumSocial.url }}" target="_blank">
-            <img src="/assets/images/network/{{ agniumSocial.image}}.svg" alt="Agnium on {{agniumSocial.name}}">
+            <img ng-src="/assets/images/network/{{ agniumSocial.image}}.svg" alt="Agnium on {{agniumSocial.name}}">
           </a>
         </span>
       </div>
