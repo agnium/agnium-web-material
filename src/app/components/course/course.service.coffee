@@ -2,28 +2,54 @@ angular.module "agnium-web"
   .service "course", () ->
     data = [
       {
-        'rank': 1,
-        'title': 'Building a web app with AngularJS',
+        'title': 'Basics of Software Development',
+        'description': 'description',
+        'image': '.svg'
+      },
+      {
+        'title': 'Fundamentals to Build a Modern Web Application',
+        'description': 'description',
+        'image': '.svg'
+      },
+      {
+        'title': 'Version Control System with Git and GitHub',
+        'description': 'description',
+        'image': 'git-github.svg'
+      },
+      {
+        'title': 'Building a Web App with AngularJS',
         'description': 'description',
         'image': 'angularjs.svg'
       },
       {
-        'rank': 2,
-        'title': 'Building an Android app',
+        'title': 'Building an Android Application',
         'description': 'description',
         'image': 'android.svg'
       },
       {
-        'rank': 3,
-        'title': 'Building an iOS app with Swift',
+        'title': 'Building an iOS App with Swift',
         'description': 'description',
         'image': 'swift.svg'
       },
       {
-        'rank': 4,
         'title': 'HTML5 and CSS3 Fundamentals',
         'description': 'description',
         'image': 'html5-css3.svg'
+      },
+      {
+        'title': 'Basics of Object Oriented Programming',
+        'description': 'description',
+        'image': '.svg'
+      },
+      {
+        'title': 'Basics of Widget and Templating',
+        'description': 'description',
+        'image': '.svg'
+      },
+      {
+        'title': 'Basics of Quality Assurance with Code and Automation',
+        'description': 'description',
+        'image': '.svg'
       }
     ]
 
