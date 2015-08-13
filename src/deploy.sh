@@ -1,10 +1,10 @@
 #!/bin/bash
 
-$ERRORSTRING="Error. Please make sure you've indicated correct parameters"
+$START="Deploy script is started"
 
 if [ $# -eq 0 ]
     then
-        echo $ERRORSTRING;
+        echo $START;
 elif [ $1 == "dev" ]
     then
         if [[ -z $2 ]]
