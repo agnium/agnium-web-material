@@ -1,6 +1,6 @@
 MainController = ($scope, $timeout, client, course, service, member, social) ->
   vm = this
-  vm.agniumClients  = []
+  # vm.agniumClients  = []
   vm.agniumCourses  = []
   vm.agniumServices = []
   vm.agniumMembers  = []
@@ -14,20 +14,22 @@ MainController = ($scope, $timeout, client, course, service, member, social) ->
     social.rank isnt 0
 
   activate = ->
-    getClient()
+    # getClient()
     getCourse()
     getService()
     getMember()
     getSocial()
     return
 
-  getClient = ->
-    vm.agniumClients = client.getClient()
-    angular.forEach vm.agniumClients, (agniumClient) ->
-      agniumClient.rank = Math.random()
-      return
-    return
+  # List of clients
+  # getClient = ->
+  #   vm.agniumClients = client.getClient()
+  #   angular.forEach vm.agniumClients, (agniumClient) ->
+  #     agniumClient.rank = Math.random()
+  #     return
+  #   return
 
+  # Available Courses
   getCourse = ->
     vm.agniumCourses = course.getCourse()
     angular.forEach vm.agniumCourses, (agniumCourse) ->
@@ -35,6 +37,7 @@ MainController = ($scope, $timeout, client, course, service, member, social) ->
       return
     return
 
+  # Needed Services
   getService = ->
     vm.agniumServices = service.getService()
     angular.forEach vm.agniumServices, (agniumService) ->
@@ -42,12 +45,14 @@ MainController = ($scope, $timeout, client, course, service, member, social) ->
       return
     return
 
+  # Agnium members
   getMember = ->
     vm.agniumMembers = member.getMember()
     angular.forEach vm.agniumMembers, (agniumMember) ->
       return
     return
 
+  # Links and social media
   getSocial = ->
     vm.agniumSocials = social.getSocial()
     angular.forEach vm.agniumSocials, (agniumSocial) ->
@@ -60,4 +65,3 @@ MainController = ($scope, $timeout, client, course, service, member, social) ->
 MainController.$inject = ["$scope", "$timeout", "client", "course", "service", "member", "social"]
 
 angular.module('agnium-web').controller('MainController', MainController)
-
