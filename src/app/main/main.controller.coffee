@@ -33,7 +33,6 @@ MainController = ($scope, $timeout, client, course, service, member, social) ->
   getCourse = ->
     vm.agniumCourses = course.getCourse()
     angular.forEach vm.agniumCourses, (agniumCourse) ->
-      agniumCourse.rank = Math.random()
       return
     return
 
@@ -41,7 +40,6 @@ MainController = ($scope, $timeout, client, course, service, member, social) ->
   getService = ->
     vm.agniumServices = service.getService()
     angular.forEach vm.agniumServices, (agniumService) ->
-      agniumService.rank = Math.random()
       return
     return
 
