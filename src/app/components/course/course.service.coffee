@@ -4,12 +4,12 @@ angular.module "agnium-web"
       {
         'title': 'Basics of Software Development',
         'description': 'description',
-        'image': '.svg'
+        'image': 'software-dev.svg'
       },
       {
         'title': 'Fundamentals to Build a Modern Web Application',
         'description': 'description',
-        'image': '.svg'
+        'image': 'web-app.svg'
       },
       {
         'title': 'Version Control System with Git and GitHub',
@@ -39,17 +39,17 @@ angular.module "agnium-web"
       {
         'title': 'Basics of Object Oriented Programming',
         'description': 'description',
-        'image': '.svg'
+        'image': 'oop.svg'
       },
       {
         'title': 'Basics of Widget and Templating',
         'description': 'description',
-        'image': '.svg'
+        'image': 'widget-template.svg'
       },
       {
         'title': 'Basics of Quality Assurance with Code and Automation',
         'description': 'description',
-        'image': '.svg'
+        'image': 'qa.svg'
       }
     ]
 
