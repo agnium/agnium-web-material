@@ -2,7 +2,7 @@ angular.module "agnium-web"
   .service "course", () ->
     data = [
       {
-        'title': 'Basics of Software Development',
+        'title': 'All About Software Development',
         'description': 'description',
         'image': 'software-dev.svg'
       },
@@ -37,17 +37,17 @@ angular.module "agnium-web"
         'image': 'html5-css3.svg'
       },
       {
-        'title': 'Basics of Object Oriented Programming',
+        'title': 'Object Oriented Programming',
         'description': 'description',
         'image': 'oop.svg'
       },
       {
-        'title': 'Basics of Widget and Templating',
+        'title': 'Widget and Templating',
         'description': 'description',
         'image': 'widget-template.svg'
       },
       {
-        'title': 'Basics of Quality Assurance with Code and Automation',
+        'title': 'Quality Assurance with Code and Automation',
         'description': 'description',
         'image': 'qa.svg'
       }
