@@ -81,7 +81,17 @@
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <div ui-view></div>
+  <div layout="row" layout-fill>
+    <md-content>
+
+      <header>
+        <agnium-navbar>
+      </header>
+
+      <div ui-view></div>
+
+    </md-content>
+  </div>
 
   <!-- build:css({.tmp/serve,src}) styles/all.css -->
 
