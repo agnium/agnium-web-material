@@ -7,7 +7,7 @@ MainController = ($scope, $timeout, client, course, service, member, social) ->
   vm.agniumSocials  = []
   vm.classAnimation = ''
 
-  $scope.agniumTypeform = "https://agnium.typeform.com/to/Sloe2h"
+  $scope.agniumContact = "/contact"
   $scope.agniumEmail = "mailto:info@agnium.co.id?subject=Hi, I want to learn more&body=Hi Agnium Team,%0D%0A%0D%0A%0D%0A"
 
   $scope.filterSocial = (social) ->
