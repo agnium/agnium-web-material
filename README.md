@@ -3,7 +3,6 @@
 This repo is the first ever actual Agnium website.
 The boilerplate was generated with [generator-gulp-angular](https://github.com/Swiip/generator-gulp-angular).
 
-
 ## Getting Started
 
 ### Prerequisites
