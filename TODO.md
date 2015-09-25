@@ -1,3 +1,3 @@
 + Atom Git
-+ Always enable scrollbar
-+ Add Why section
++ Modify Why section
++ Fix jump link if come from different page
