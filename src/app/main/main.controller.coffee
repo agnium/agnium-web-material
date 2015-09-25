@@ -15,8 +15,8 @@ MainController = ($scope, $timeout, client, course, service, member, social) ->
 
   activate = ->
     # getClient()
-    getCourse()
     getService()
+    getCourse()
     getMember()
     getSocial()
     return
@@ -29,17 +29,17 @@ MainController = ($scope, $timeout, client, course, service, member, social) ->
   #     return
   #   return
 
-  # Available Courses
-  getCourse = ->
-    vm.agniumCourses = course.getCourse()
-    angular.forEach vm.agniumCourses, (agniumCourse) ->
-      return
-    return
-
-  # Needed Services
+  # Needed services
   getService = ->
     vm.agniumServices = service.getService()
     angular.forEach vm.agniumServices, (agniumService) ->
+      return
+    return
+
+  # Available courses
+  getCourse = ->
+    vm.agniumCourses = course.getCourse()
+    angular.forEach vm.agniumCourses, (agniumCourse) ->
       return
     return
 
