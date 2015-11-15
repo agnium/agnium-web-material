@@ -1,6 +1,6 @@
-MainController = ($scope, $timeout, client, course, service, member, social) ->
+MainController = ($scope, $timeout, partner, course, service, member, social) ->
   vm = this
-  # vm.agniumClients  = []
+  vm.agniumPartners  = []
   vm.agniumCourses  = []
   vm.agniumServices = []
   vm.agniumMembers  = []
@@ -14,20 +14,19 @@ MainController = ($scope, $timeout, client, course, service, member, social) ->
     social.rank isnt 0
 
   activate = ->
-    # getClient()
+    getPartner()
     getService()
     getCourse()
     getMember()
     getSocial()
     return
 
-  # List of clients
-  # getClient = ->
-  #   vm.agniumClients = client.getClient()
-  #   angular.forEach vm.agniumClients, (agniumClient) ->
-  #     agniumClient.rank = Math.random()
-  #     return
-  #   return
+  # List of partners
+  getPartner = ->
+    vm.agniumPartners = partner.getPartner()
+    angular.forEach vm.agniumPartners, (agniumPartner) ->
+      return
+    return
 
   # Needed services
   getService = ->
@@ -60,6 +59,6 @@ MainController = ($scope, $timeout, client, course, service, member, social) ->
   activate()
   return
 
-MainController.$inject = ["$scope", "$timeout", "client", "course", "service", "member", "social"]
+MainController.$inject = ["$scope", "$timeout", "partner", "course", "service", "member", "social"]
 
 angular.module('agnium-web').controller('MainController', MainController)

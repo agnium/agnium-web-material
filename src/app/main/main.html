@@ -18,6 +18,19 @@
       </div>
     </section>
 
+    <section id="with">
+      <h2>
+        Who's With Us
+      </h2>
+      <div class="partners vertical-center" layout-align="center">
+        <div ng-repeat="agniumPartner in main.agniumPartners | orderBy:'rank'">
+          <a ng-href="{{ agniumPartner.url }}" target="_blank" title="{{ agniumPartner.description }}">
+            <img ng-src="/assets/images/partner/{{ agniumPartner.logo }}" alt="{{ agniumPartner.name }}">
+          </a>
+        </div>
+      </div>
+    </section>
+
     <section id="ticker" layout="row" layout-sm="column" layout-align="center center">
       <md-button class="md-fab" aria-label="Next" ng-href="/#why" du-smooth-scroll>
         <md-icon md-svg-src="/assets/images/icons/arrow-down.svg"></md-icon>

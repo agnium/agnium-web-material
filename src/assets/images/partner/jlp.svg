@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="187"
+   viewBox="0 0 600 187"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="jlp.svg"
+   inkscape:export-filename="/home/agnium/all/repo/jlpcommunity/jlp-brand/assets/png/jlp_expanded_base_red.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata30">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>JakartaLP Brand Asset</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     id="namedview28"
+     showgrid="false"
+     inkscape:zoom="1.5707527"
+     inkscape:cx="288.39825"
+     inkscape:cy="100.9913"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:object-paths="true"
+     showguides="false"
+     inkscape:snap-page="true"
+     inkscape:showpageshadow="false"
+     inkscape:snap-global="false" />
+  <!-- Generator: Sketch 3.0.3 (7892) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">JakartaLP Brand Asset</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8">
+    <filter
+       x="-0.5"
+       y="-0.5"
+       width="2"
+       height="2"
+       filterUnits="objectBoundingBox"
+       id="filter-1"
+       color-interpolation-filters="sRGB">
+      <feOffset
+         dx="2"
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset11" />
+      <feGaussianBlur
+         stdDeviation="2"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur13" />
+      <feColorMatrix
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0"
+         in="shadowBlurOuter1"
+         type="matrix"
+         result="shadowMatrixOuter1"
+         id="feColorMatrix15" />
+      <feMerge
+         id="feMerge17">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode19" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode21" />
+      </feMerge>
+    </filter>
+    <filter
+       id="filter-1-3"
+       filterUnits="objectBoundingBox"
+       height="2"
+       width="2"
+       y="-0.5"
+       x="-0.5"
+       color-interpolation-filters="sRGB">
+      <feOffset
+         id="feOffset11-5"
+         result="shadowOffsetOuter1"
+         in="SourceAlpha"
+         dy="2"
+         dx="2" />
+      <feGaussianBlur
+         id="feGaussianBlur13-9"
+         result="shadowBlurOuter1"
+         in="shadowOffsetOuter1"
+         stdDeviation="2" />
+      <feColorMatrix
+         id="feColorMatrix15-6"
+         result="shadowMatrixOuter1"
+         type="matrix"
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" />
+      <feMerge
+         id="feMerge17-3">
+        <feMergeNode
+           id="feMergeNode19-1"
+           in="shadowMatrixOuter1" />
+        <feMergeNode
+           id="feMergeNode21-2"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter
+       id="filter-1-1"
+       filterUnits="objectBoundingBox"
+       height="2"
+       width="2"
+       y="-0.5"
+       x="-0.5"
+       color-interpolation-filters="sRGB">
+      <feOffset
+         id="feOffset11-8"
+         result="shadowOffsetOuter1"
+         in="SourceAlpha"
+         dy="2"
+         dx="2" />
+      <feGaussianBlur
+         id="feGaussianBlur13-90"
+         result="shadowBlurOuter1"
+         in="shadowOffsetOuter1"
+         stdDeviation="2" />
+      <feColorMatrix
+         id="feColorMatrix15-3"
+         result="shadowMatrixOuter1"
+         type="matrix"
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" />
+      <feMerge
+         id="feMerge17-7">
+        <feMergeNode
+           id="feMergeNode19-6"
+           in="shadowMatrixOuter1" />
+        <feMergeNode
+           id="feMergeNode21-3"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter
+       id="filter-1-36"
+       filterUnits="objectBoundingBox"
+       height="2"
+       width="2"
+       y="-0.5"
+       x="-0.5"
+       color-interpolation-filters="sRGB">
+      <feOffset
+         id="feOffset11-7"
+         result="shadowOffsetOuter1"
+         in="SourceAlpha"
+         dy="2"
+         dx="2" />
+      <feGaussianBlur
+         id="feGaussianBlur13-4"
+         result="shadowBlurOuter1"
+         in="shadowOffsetOuter1"
+         stdDeviation="2" />
+      <feColorMatrix
+         id="feColorMatrix15-65"
+         result="shadowMatrixOuter1"
+         type="matrix"
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" />
+      <feMerge
+         id="feMerge17-6">
+        <feMergeNode
+           id="feMergeNode19-7"
+           in="shadowMatrixOuter1" />
+        <feMergeNode
+           id="feMergeNode21-8"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter
+       id="filter-1-6"
+       filterUnits="objectBoundingBox"
+       height="2"
+       width="2"
+       y="-0.5"
+       x="-0.5"
+       color-interpolation-filters="sRGB">
+      <feOffset
+         id="feOffset11-71"
+         result="shadowOffsetOuter1"
+         in="SourceAlpha"
+         dy="2"
+         dx="2" />
+      <feGaussianBlur
+         id="feGaussianBlur13-6"
+         result="shadowBlurOuter1"
+         in="shadowOffsetOuter1"
+         stdDeviation="2" />
+      <feColorMatrix
+         id="feColorMatrix15-7"
+         result="shadowMatrixOuter1"
+         type="matrix"
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" />
+      <feMerge
+         id="feMerge17-8">
+        <feMergeNode
+           id="feMergeNode19-63"
+           in="shadowMatrixOuter1" />
+        <feMergeNode
+           id="feMergeNode21-5"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask4233">
+      <rect
+         style="fill:#ff2a2a;fill-opacity:1"
+         id="rect4235"
+         width="650"
+         height="150"
+         x="310"
+         y="650" />
+    </mask>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="base"
+     style="display:inline"
+     transform="translate(0,-613)">
+    <g
+       style="display:inline"
+       id="g4249-1-3"
+       transform="translate(-42.608814,1702.5518)" />
+    <g
+       transform="translate(-581.41302,324.36922)"
+       inkscape:label="bg"
+       id="layer2-1" />
+    <g
+       id="g4612"
+       transform="matrix(0.21940684,0,0,0.21940684,-30.40597,406.02735)"
+       style="fill:#ffffff">
+      <g
+         inkscape:export-ydpi="20.002501"
+         inkscape:export-xdpi="20.002501"
+         inkscape:export-filename="/home/agnium/all/repo/jlpcommunity/jlp-brand/banner/jlp_banner_white_85x200_2.png"
+         transform="matrix(10.321294,0,0,10.321294,138.5826,-6004.9431)"
+         id="g4077"
+         style="fill:#ffffff;display:inline">
+        <text
+           sodipodi:linespacing="100%"
+           id="text4152-4-7-5-3-2-8"
+           y="712.15338"
+           x="132.18965"
+           style="font-size:45.16982651000000004px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Roboto;-inkscape-font-specification:Roboto"
+           xml:space="preserve"><tspan
+             style="font-size:20px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy'"
+             y="712.15338"
+             x="132.18965"
+             id="tspan4154-8-3-0-1-7-7"
+             sodipodi:role="line">Jakarta</tspan><tspan
+             style="font-size:20px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy'"
+             y="732.15338"
+             x="132.18965"
+             sodipodi:role="line"
+             id="tspan3292-4">Learns</tspan><tspan
+             style="font-size:20px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy'"
+             y="752.15338"
+             x="132.18965"
+             sodipodi:role="line"
+             id="tspan3294-1">Programming</tspan></text>
+        <g
+           id="g4066-1"
+           transform="translate(0,23.198654)"
+           style="fill:#ffffff">
+          <g
+             style="fill:#ffffff;fill-opacity:1;display:inline"
+             transform="matrix(0.18437555,0,0,0.18437555,-3.4922665,637.42485)"
+             id="g4233-3-5">
+            <g
+               id="layer2-0-8-5"
+               inkscape:label="bg"
+               transform="translate(0,-100)"
+               style="fill:#ffffff;fill-opacity:1;display:inline" />
+            <g
+               id="layer1-8-5-90"
+               inkscape:label="base"
+               style="fill:#ffffff;fill-opacity:1;display:inline"
+               transform="translate(0,-100)">
+              <g
+                 style="fill:#ffffff;fill-opacity:1"
+                 id="g3357-0-1"
+                 transform="matrix(5,0,0,5,-1397.5368,-3364.8476)">
+                <path
+                   inkscape:connector-curvature="0"
+                   style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+                   d="m 303.16836,706.61036 c -0.25897,-0.004 -0.44768,0.28523 -0.58219,0.88639 -0.77817,3.04642 -3.0159,6.22946 -5.09924,8.8064 -2.08333,2.57695 -4.84381,5.16855 -2.29037,9.96128 1.79188,2.8658 4.42744,3.85685 6.63919,4.12521 -0.58049,-0.39219 -1.09455,-0.85399 -1.43223,-1.38798 -1.344,-2.12531 -0.76832,-4.26146 -0.76832,-4.26146 0,0 1.65847,3.6074 4.17086,4.69584 0.8585,0.37193 1.54597,0.60651 2.12996,0.74133 0,0 8.29529,-2.58405 5.74722,-10.06687 -0.26201,-0.60412 -0.58135,-1.19435 -0.96564,-1.68458 -0.65455,-0.83497 -1.21256,-1.30474 -1.62983,-1.56904 -0.0988,0.57951 -0.23784,1.16244 -0.43334,1.68268 -0.76409,2.03331 -2.19533,2.16314 -2.19533,2.16314 0,0 1.22168,-0.14498 0.96952,-3.96713 -0.17286,-2.6202 -1.33525,-6.06276 -2.3046,-7.74178 -0.89711,-1.55389 -1.52405,-2.37644 -1.95566,-2.38343 z"
+                   id="rect4149-6-8-5" />
+                <path
+                   d="m 312.20314,733.38967 -18.06723,0 0,43.44543 c 0,2.10084 -1.59664,2.94118 -4.95798,2.94118 l -3.94958,0 -1.93278,11.42857 c 2.85715,1.5126 9.83194,2.18487 13.52942,2.18487 9.4958,0 15.37815,-4.28571 15.37815,-11.84874 z"
+                   style="font-size:84.03361510999999950px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy'"
+                   id="path4194-4-4-9"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="ccssccssc" />
+                <path
+                   d="m 338.43844,733.38967 -18.2353,0 -1e-5,45.96642 c 0,7.81512 5.37816,13.19328 13.78152,13.19328 9.4958,0 19.66386,0 28.31933,-1.17648 l -0.84034,-13.61344 -19.4958,0 c -2.18487,0 -3.52941,-1.26051 -3.52941,-3.02521 z"
+                   style="font-size:84.03361510999999950px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy'"
+                   id="path4208-7-2-6"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="ccssccssc" />
+                <path
+                   d="m 367.14772,792.21323 18.2353,0 0,-20 c 2.85714,0.33613 5.88235,0.5042 8.82353,0.5042 15.88235,0 21.5126,-4.28571 21.5126,-19.57983 0,-15.46219 -5.63025,-19.7479 -24.03361,-19.7479 -11.59664,0 -16.80673,0.084 -24.53782,0.84034 l 0,57.98319 z m 18.2353,-32.35294 0,-13.61345 5.88235,0 c 4.95798,0 6.21849,1.34454 6.21849,6.89076 0,5.37815 -1.26051,6.72269 -6.21849,6.72269 l -5.88235,0 z"
+                   style="font-size:84.03361510999999950px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy'"
+                   id="path4210-1-3-2"
+                   inkscape:connector-curvature="0" />
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
