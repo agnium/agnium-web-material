@@ -25,7 +25,6 @@ MainController = ($scope, $timeout, partner, course, service, member, social) ->
   getPartner = ->
     vm.agniumPartners = partner.getPartner()
     angular.forEach vm.agniumPartners, (agniumPartner) ->
-      agniumPartner.rank = Math.random()
       return
     return
 
