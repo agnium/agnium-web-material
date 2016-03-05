@@ -5,12 +5,6 @@ Email: sigit@agnium.co.id
 Twitter: @sigit_prayoga
 Location: Bogor, Indonesia
 
-Technical Lead: M Haidar Hanif
-Email: haidar@agnium.co.id
-Twitter: @mhaidarh / @mhaidarh_id
-Location: Depok, Indonesia
-Website: http://mhaidarhanif.com
-
 /* THANKS */
 
 Everyone on the World Wide Web and Internet!
