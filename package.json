@@ -1,11 +1,11 @@
 {
   "name": "agnium-web-material",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Offical Agnium website with AngularJS and Material Design",
   "author": "Agnium <info@agnium.co.id>",
   "contributors": [
-    "M Haidar Hanif <mhaidarhanif@gmail.com> (http://mhaidarhanif.com)",
-    "Sigit Prayoga <prayoga.sigit@gmail.com> (https://linkedin.com/in/sigitprayoga)"
+    "Agnium Admin <admin@agnium.co.id> (http://agnium.co.id)",
+    "Sigit Prayoga <prayoga.sigit@gmail.com> (https://sigitprayoga.com)"
   ],
   "keywords": [
     "agnium",

@@ -7,13 +7,6 @@ angular.module "agnium-web"
         'url': "https://linkedin.com/in/sigitprayoga"
         'photo': 'sigitprayoga.jpg'
         'photoUrl': 'https://linkedin.com/in/sigitprayoga',
-      },
-      {
-        'name': 'M Haidar Hanif',
-        'title': 'Technical Lead',
-        'url': 'http://mhaidarhanif.com',
-        'photo': 'mhaidarhanif.jpg'
-        'photoUrl': 'https://linkedin.com/in/mhaidarhanif',
       }
     ]
 
